@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "eade9b3b-9b82-4897-83fe-2c348b82c03b")
+	(paper "A")
+	(title_block
+		(title "ARBITRARY WAVEFORM GENERATOR")
+		(date "2024-09-11")
+		(rev "0.0.1")
+		(company "Tomasz Brzyzek")
+		(comment 1 "brzk.net")
+	)
+	(lib_symbols)
+)

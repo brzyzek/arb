@@ -1,0 +1,485 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "866ef9be-3b01-4288-a6e0-a2357aa17e50")
+	(paper "A")
+	(title_block
+		(title "ARBITRARY WAVEFORM GENERATOR")
+		(date "2024-09-11")
+		(rev "0.0.1")
+		(company "Tomasz Brzyzek")
+		(comment 1 "brzk.net")
+	)
+	(lib_symbols)
+	(text_box "2"
+		(exclude_from_sim no)
+		(at 165.1 81.28 0)
+		(size 19.05 3.81)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 72 72 1)
+			)
+		)
+		(uuid "01f8ac6f-09ae-4953-baac-9765af5d4085")
+	)
+	(text_box "REVISION"
+		(exclude_from_sim no)
+		(at 189.23 19.05 0)
+		(size 19.05 3.81)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 72 72 1)
+			)
+			(justify left)
+		)
+		(uuid "055cb14a-0792-4ba2-a46f-215aebb4c809")
+	)
+	(text_box "3"
+		(exclude_from_sim no)
+		(at 165.1 85.09 0)
+		(size 19.05 3.81)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 72 72 1)
+			)
+		)
+		(uuid "057ecabf-76a3-41e1-bd8a-b401d3d74bc4")
+	)
+	(text_box "REVISION HISTORY"
+		(exclude_from_sim no)
+		(at 189.23 15.24 0)
+		(size 74.93 3.81)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 72 72 1)
+			)
+			(justify left)
+		)
+		(uuid "20bb2244-dbae-4f72-8106-e9df9b3bfd50")
+	)
+	(text_box "SHEET NAME"
+		(exclude_from_sim no)
+		(at 109.22 73.66 0)
+		(size 55.88 3.81)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 72 72 1)
+			)
+			(justify left)
+		)
+		(uuid "2658ae98-dd8c-459b-84d3-24d2a4cabc56")
+	)
+	(text_box "TABLE OF CONTENTS"
+		(exclude_from_sim no)
+		(at 109.22 69.85 0)
+		(size 74.93 3.81)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 72 72 1)
+			)
+			(justify left)
+		)
+		(uuid "30cb4e8a-0f93-49f5-9ce2-312aa8491742")
+	)
+	(text_box "SHEET NUMBER"
+		(exclude_from_sim no)
+		(at 165.1 73.66 0)
+		(size 19.05 3.81)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 72 72 1)
+			)
+			(justify left)
+		)
+		(uuid "3f6a981a-3190-4ac2-9bcf-92626abed2d4")
+	)
+	(text_box "TBD"
+		(exclude_from_sim no)
+		(at 165.1 88.9 0)
+		(size 19.05 3.81)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 72 72 1)
+			)
+		)
+		(uuid "6f231fdc-cf5e-4566-a539-5cd91b777b47")
+	)
+	(text_box "DESCRIPTION"
+		(exclude_from_sim no)
+		(at 208.28 19.05 0)
+		(size 55.88 3.81)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 72 72 1)
+			)
+			(justify left)
+		)
+		(uuid "90b03f3b-8994-48c8-80d3-5f97d93d4f16")
+	)
+	(text_box "NOTES:\n1.	TBD"
+		(exclude_from_sim no)
+		(at 16.51 17.78 0)
+		(size 83.82 107.95)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a5a09aeb-5b6d-4333-9a75-c70ea06bb632")
+	)
+	(text_box "TITLE / ROOT"
+		(exclude_from_sim no)
+		(at 109.22 77.47 0)
+		(size 55.88 3.81)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 72 72 1)
+			)
+			(justify left)
+		)
+		(uuid "ad3108a1-6f02-4302-8db2-dd7b0350ae43")
+	)
+	(text_box "INITIAL RELEASE"
+		(exclude_from_sim no)
+		(at 208.28 22.86 0)
+		(size 55.88 3.81)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 72 72 1)
+			)
+			(justify left)
+		)
+		(uuid "b63e84f1-4249-470d-b1a6-86f148673620")
+	)
+	(text_box "0.0.1"
+		(exclude_from_sim no)
+		(at 189.23 22.86 0)
+		(size 19.05 3.81)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 72 72 1)
+			)
+		)
+		(uuid "c98ecee2-77a8-40d9-929f-155f1e90863f")
+	)
+	(text_box "1"
+		(exclude_from_sim no)
+		(at 165.1 77.47 0)
+		(size 19.05 3.81)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 72 72 1)
+			)
+		)
+		(uuid "f3a4c47b-48c3-4217-825d-9dcb3e5f829e")
+	)
+	(text "NOTE: USED TO COPY & PASTE A BLANK HIERARCHAL SCHEMATIC SHEET."
+		(exclude_from_sim no)
+		(at 144.018 110.236 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f8e9d5cc-351a-4f23-b504-f75bb984b671")
+	)
+	(sheet
+		(at 109.22 81.28)
+		(size 55.88 3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1bf072f1-a14e-405a-bc69-5714f3381f47")
+		(property "Sheetname" "POWER"
+			(at 110.236 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 109.22 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "arb"
+				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 85.09)
+		(size 55.88 3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "59503b16-13c4-4480-8e22-c5a7043d8844")
+		(property "Sheetname" "CLOCKING"
+			(at 110.236 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "clocking.kicad_sch"
+			(at 109.22 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "arb"
+				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 111.76)
+		(size 55.88 3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d28261b1-c955-4283-8a47-f8291dd1b7a6")
+		(property "Sheetname" "BLANK TEMPLATE"
+			(at 110.236 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "blank_template.kicad_sch"
+			(at 109.22 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "arb"
+				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 88.9)
+		(size 55.88 3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eb105004-087f-4ea7-8291-809b214299af")
+		(property "Sheetname" "CONNECTORS"
+			(at 110.236 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 109.22 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "arb"
+				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
