@@ -9,7 +9,7 @@
 		(date "2024-09-11")
 		(rev "0.0.1")
 		(company "Tomasz Brzyzek")
-		(comment 1 "brzk.net")
+		(comment 1 "Stasia Brzyzek")
 	)
 	(lib_symbols)
 	(text_box "2"
@@ -55,9 +55,9 @@
 		)
 		(uuid "055cb14a-0792-4ba2-a46f-215aebb4c809")
 	)
-	(text_box "3"
+	(text_box "TBD"
 		(exclude_from_sim no)
-		(at 165.1 85.09 0)
+		(at 165.1 88.9 0)
 		(size 19.05 3.81)
 		(stroke
 			(width 0)
@@ -97,6 +97,26 @@
 			(justify left)
 		)
 		(uuid "20bb2244-dbae-4f72-8106-e9df9b3bfd50")
+	)
+	(text_box "TBD"
+		(exclude_from_sim no)
+		(at 165.1 92.71 0)
+		(size 19.05 3.81)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 72 72 1)
+			)
+		)
+		(uuid "2164bdcd-aa25-44dc-8228-f0acc9a0b047")
 	)
 	(text_box "SHEET NAME"
 		(exclude_from_sim no)
@@ -169,7 +189,7 @@
 	)
 	(text_box "TBD"
 		(exclude_from_sim no)
-		(at 165.1 88.9 0)
+		(at 165.1 104.14 0)
 		(size 19.05 3.81)
 		(stroke
 			(width 0)
@@ -209,6 +229,46 @@
 			(justify left)
 		)
 		(uuid "90b03f3b-8994-48c8-80d3-5f97d93d4f16")
+	)
+	(text_box "TBD"
+		(exclude_from_sim no)
+		(at 165.1 100.33 0)
+		(size 19.05 3.81)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 72 72 1)
+			)
+		)
+		(uuid "94738b7c-693d-4b0e-a197-2d900988529a")
+	)
+	(text_box "TBD"
+		(exclude_from_sim no)
+		(at 165.1 85.09 0)
+		(size 19.05 3.81)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 72 72 1)
+			)
+		)
+		(uuid "99d55c00-aa0e-45c6-b2fa-ee655c047496")
 	)
 	(text_box "NOTES:\n1.	TBD"
 		(exclude_from_sim no)
@@ -291,6 +351,26 @@
 		)
 		(uuid "c98ecee2-77a8-40d9-929f-155f1e90863f")
 	)
+	(text_box "TBD"
+		(exclude_from_sim no)
+		(at 165.1 96.52 0)
+		(size 19.05 3.81)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 72 72 1)
+			)
+		)
+		(uuid "ee7da98a-f033-436d-84cf-4116531a5425")
+	)
 	(text_box "1"
 		(exclude_from_sim no)
 		(at 165.1 77.47 0)
@@ -320,6 +400,84 @@
 			)
 		)
 		(uuid "f8e9d5cc-351a-4f23-b504-f75bb984b671")
+	)
+	(sheet
+		(at 109.22 92.71)
+		(size 55.88 3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1173c135-6710-44aa-af07-a45f7e01d96a")
+		(property "Sheetname" "MICROPROCESSOR"
+			(at 110.236 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "microprocessor.kicad_sch"
+			(at 109.22 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "arb"
+				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 96.52)
+		(size 55.88 3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "13f127a8-adf3-43db-9fea-9a9f154787f6")
+		(property "Sheetname" "FPGA"
+			(at 110.236 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "fpga.kicad_sch"
+			(at 109.22 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "arb"
+				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
+					(page "6")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 109.22 81.28)
@@ -371,8 +529,8 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "59503b16-13c4-4480-8e22-c5a7043d8844")
-		(property "Sheetname" "CLOCKING"
+		(uuid "3081f01b-0fc6-40b1-9db3-1dae5b3adecb")
+		(property "Sheetname" "POWER SEQUENCING"
 			(at 110.236 87.122 0)
 			(effects
 				(font
@@ -381,7 +539,7 @@
 				(justify left)
 			)
 		)
-		(property "Sheetfile" "clocking.kicad_sch"
+		(property "Sheetfile" "power_seq.kicad_sch"
 			(at 109.22 89.4846 0)
 			(effects
 				(font
@@ -394,7 +552,85 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 88.9)
+		(size 55.88 3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "59503b16-13c4-4480-8e22-c5a7043d8844")
+		(property "Sheetname" "CLOCKING"
+			(at 110.236 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "clocking.kicad_sch"
+			(at 109.22 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "arb"
+				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 100.33)
+		(size 55.88 3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "671babe9-63c4-471b-b226-781a2641e7ad")
+		(property "Sheetname" "FTDI"
+			(at 110.236 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "ftdi.kicad_sch"
+			(at 109.22 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "arb"
+				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
+					(page "7")
 				)
 			)
 		)
@@ -433,13 +669,13 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
-					(page "4")
+					(page "10")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 109.22 88.9)
+		(at 109.22 104.14)
 		(size 55.88 3.81)
 		(stroke
 			(width 0.1524)
@@ -451,7 +687,7 @@
 		)
 		(uuid "eb105004-087f-4ea7-8291-809b214299af")
 		(property "Sheetname" "CONNECTORS"
-			(at 110.236 90.932 0)
+			(at 110.236 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -460,7 +696,7 @@
 			)
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
-			(at 109.22 93.2946 0)
+			(at 109.22 108.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -472,7 +708,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
-					(page "5")
+					(page "9")
 				)
 			)
 		)

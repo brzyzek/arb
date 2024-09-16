@@ -396,12 +396,28 @@
       "CLOCKING"
     ],
     [
-      "d28261b1-c955-4283-8a47-f8291dd1b7a6",
-      "BLANK TEMPLATE"
+      "3081f01b-0fc6-40b1-9db3-1dae5b3adecb",
+      "POWER SEQUENCING"
+    ],
+    [
+      "1173c135-6710-44aa-af07-a45f7e01d96a",
+      "MICROPROCESSOR"
+    ],
+    [
+      "13f127a8-adf3-43db-9fea-9a9f154787f6",
+      "FPGA"
+    ],
+    [
+      "671babe9-63c4-471b-b226-781a2641e7ad",
+      "FTDI"
     ],
     [
       "eb105004-087f-4ea7-8291-809b214299af",
       "CONNECTORS"
+    ],
+    [
+      "d28261b1-c955-4283-8a47-f8291dd1b7a6",
+      "BLANK TEMPLATE"
     ]
   ],
   "text_variables": {}

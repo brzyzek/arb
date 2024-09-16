@@ -1,4 +1,7 @@
 (sym_lib_table
   (version 7)
   (lib (name "BRZK_STM32")(type "KiCad")(uri "${BRZK_SYMBOL_DIR}/BRZK_STM32.kicad_sym")(options "")(descr ""))
+  (lib (name "BRZK_FPGA_LATTICE")(type "KiCad")(uri "${BRZK_SYMBOL_DIR}/BRZK_FPGA_LATTICE.kicad_sym")(options "")(descr ""))
+  (lib (name "BRZK_FTDI")(type "KiCad")(uri "${BRZK_SYMBOL_DIR}/BRZK_FTDI.kicad_sym")(options "")(descr ""))
+  (lib (name "BRZK_SWITCH")(type "KiCad")(uri "${BRZK_SYMBOL_DIR}/BRZK_SWITCH.kicad_sym")(options "")(descr ""))
 )
