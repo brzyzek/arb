@@ -205,7 +205,47 @@
 				(color 0 72 72 1)
 			)
 		)
+		(uuid "51c4fcd4-ecad-4933-9fed-2ab2cc4c253c")
+	)
+	(text_box "TBD"
+		(exclude_from_sim no)
+		(at 165.1 135.89 0)
+		(size 19.05 3.81)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 72 72 1)
+			)
+		)
 		(uuid "6f231fdc-cf5e-4566-a539-5cd91b777b47")
+	)
+	(text_box "TBD"
+		(exclude_from_sim no)
+		(at 165.1 107.95 0)
+		(size 19.05 3.81)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 72 72 1)
+			)
+		)
+		(uuid "7c91ea5d-a000-46a8-b1b5-f538bbee578b")
 	)
 	(text_box "DESCRIPTION"
 		(exclude_from_sim no)
@@ -393,7 +433,7 @@
 	)
 	(text "NOTE: USED TO COPY & PASTE A BLANK HIERARCHAL SCHEMATIC SHEET."
 		(exclude_from_sim no)
-		(at 144.018 110.236 0)
+		(at 144.018 149.606 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -636,45 +676,6 @@
 		)
 	)
 	(sheet
-		(at 109.22 111.76)
-		(size 55.88 3.81)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "d28261b1-c955-4283-8a47-f8291dd1b7a6")
-		(property "Sheetname" "BLANK TEMPLATE"
-			(at 110.236 113.792 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Sheetfile" "blank_template.kicad_sch"
-			(at 109.22 116.1546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "arb"
-				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 109.22 104.14)
 		(size 55.88 3.81)
 		(stroke
@@ -685,8 +686,8 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "eb105004-087f-4ea7-8291-809b214299af")
-		(property "Sheetname" "CONNECTORS"
+		(uuid "7126ceca-2dec-4994-855f-f217c0acdc71")
+		(property "Sheetname" "DAC"
 			(at 110.236 106.172 0)
 			(effects
 				(font
@@ -695,7 +696,7 @@
 				(justify left)
 			)
 		)
-		(property "Sheetfile" "connectors.kicad_sch"
+		(property "Sheetfile" "dac.kicad_sch"
 			(at 109.22 108.5346 0)
 			(effects
 				(font
@@ -708,7 +709,124 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 107.95)
+		(size 55.88 3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bd0aaaf9-692a-47fc-947f-13721638d3cf")
+		(property "Sheetname" "LEVEL TRANSLATION"
+			(at 110.236 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "lvl_trns.kicad_sch"
+			(at 109.22 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "arb"
+				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
 					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 151.13)
+		(size 55.88 3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d28261b1-c955-4283-8a47-f8291dd1b7a6")
+		(property "Sheetname" "BLANK TEMPLATE"
+			(at 110.236 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "blank_template.kicad_sch"
+			(at 109.22 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "arb"
+				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
+					(page "99")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 135.89)
+		(size 55.88 3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eb105004-087f-4ea7-8291-809b214299af")
+		(property "Sheetname" "CONNECTORS"
+			(at 110.236 137.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 109.22 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "arb"
+				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
+					(page "20")
 				)
 			)
 		)
