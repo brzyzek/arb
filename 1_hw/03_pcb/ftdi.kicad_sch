@@ -3001,16 +3001,8 @@
 		(uuid "44d5ac17-b343-4077-b383-66455bb10b50")
 	)
 	(no_connect
-		(at 182.88 105.41)
-		(uuid "5225661d-881c-422e-9d3b-dabbe1617f46")
-	)
-	(no_connect
 		(at 182.88 64.77)
 		(uuid "553c7e8a-8c1b-48d0-8db6-6d52343dc169")
-	)
-	(no_connect
-		(at 182.88 100.33)
-		(uuid "59260a98-ad5d-421a-ab35-8daeb6097e0b")
 	)
 	(no_connect
 		(at 182.88 67.31)
@@ -3027,10 +3019,6 @@
 	(no_connect
 		(at 182.88 110.49)
 		(uuid "81cd9c01-5adf-4ae1-b408-cfa53a1d11d9")
-	)
-	(no_connect
-		(at 182.88 107.95)
-		(uuid "87293074-91c0-42ed-a431-832f6a4543e9")
 	)
 	(no_connect
 		(at 182.88 115.57)
@@ -3063,10 +3051,6 @@
 	(no_connect
 		(at 182.88 135.89)
 		(uuid "c95fa7ce-2278-4c6c-b253-44772807e775")
-	)
-	(no_connect
-		(at 182.88 102.87)
-		(uuid "d6b17685-d065-4d87-b4dd-c3d006bebfda")
 	)
 	(no_connect
 		(at 182.88 130.81)
@@ -3172,16 +3156,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 82.55) (xy 121.92 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1495fadf-9b3b-4bad-8dd2-155c6642f59e")
-	)
-	(wire
-		(pts
 			(xy 73.66 34.29) (xy 82.55 34.29)
 		)
 		(stroke
@@ -3199,16 +3173,6 @@
 			(type default)
 		)
 		(uuid "1582338a-d88f-4192-aa06-8662b2a9d79d")
-	)
-	(wire
-		(pts
-			(xy 182.88 85.09) (xy 185.42 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1720c668-f7d0-4936-991e-1df9989675ce")
 	)
 	(wire
 		(pts
@@ -3442,16 +3406,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 87.63) (xy 185.42 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5574d511-24a8-4cc4-a544-8bb772776f3a")
-	)
-	(wire
-		(pts
 			(xy 101.6 133.35) (xy 101.6 143.51)
 		)
 		(stroke
@@ -3529,16 +3483,6 @@
 			(type default)
 		)
 		(uuid "6474d095-7280-408a-b353-c724fe1363dd")
-	)
-	(wire
-		(pts
-			(xy 182.88 57.15) (xy 185.42 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65920a1c-3e17-49b8-ac2d-7ad50f3bf625")
 	)
 	(wire
 		(pts
@@ -3809,16 +3753,6 @@
 			(type default)
 		)
 		(uuid "a0ef15c6-0401-4b0e-b8d9-95cd7e11f62f")
-	)
-	(wire
-		(pts
-			(xy 118.11 80.01) (xy 121.92 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a45894e6-9b1b-489b-ba5d-ee3cca9e5958")
 	)
 	(wire
 		(pts
@@ -4152,16 +4086,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 54.61) (xy 185.42 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f63d2e22-927b-403a-8e8a-27cd739e4ee7")
-	)
-	(wire
-		(pts
 			(xy 139.7 34.29) (xy 139.7 46.99)
 		)
 		(stroke
@@ -4180,28 +4104,6 @@
 		)
 		(uuid "fa8c438d-a005-4026-8e12-42262713da39")
 	)
-	(text "TB: ADD JTAG!"
-		(exclude_from_sim no)
-		(at 223.266 106.426 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "56bc43f8-1ece-4174-9d44-d528964c690c")
-	)
-	(text "TB: CHECK CURRENT SINK CAPABILITIES!"
-		(exclude_from_sim no)
-		(at 227.33 77.978 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 194 0 0 1)
-			)
-		)
-		(uuid "b99825f2-443a-4bad-96e2-be22a717ca07")
-	)
 	(text "FTDI PIN 16: UART_FTDI_TXD\nFTDI PIN 17: UART_TFDI_RXD\n(LINES FLIPPED TO MCU)"
 		(exclude_from_sim no)
 		(at 198.628 62.992 0)
@@ -4212,9 +4114,31 @@
 		)
 		(uuid "f11af59b-d99b-49c4-901d-d8fcccd2185a")
 	)
+	(global_label "JTAG_FTDI_TMS_3P3"
+		(shape input)
+		(at 182.88 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0696ea3a-e3f8-4d79-88aa-fca5dc5d7bdc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.3103 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART_MCUTX_FTDIRX_3P3"
 		(shape input)
-		(at 185.42 57.15 0)
+		(at 182.88 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4224,7 +4148,7 @@
 		)
 		(uuid "215c5e32-aabb-4598-9408-d4ce5758bca9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.2932 57.15 0)
+			(at 209.7532 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,7 +4160,7 @@
 	)
 	(global_label "GPIO_UART_TXLED_FTDI_L"
 		(shape input)
-		(at 185.42 87.63 0)
+		(at 182.88 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4246,7 +4170,7 @@
 		)
 		(uuid "27a75e6d-23d5-4450-8ebf-eeed9f9d1c83")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.9909 87.63 0)
+			(at 209.4509 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4280,7 +4204,7 @@
 	)
 	(global_label "UART_FTDITX_MCURX_3P3"
 		(shape input)
-		(at 185.42 54.61 0)
+		(at 182.88 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4290,7 +4214,29 @@
 		)
 		(uuid "33fdcd67-5853-41a6-9666-799bbd5d6870")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.2932 54.61 0)
+			(at 209.7532 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JTAG_FTDI_TCK_3P3"
+		(shape input)
+		(at 182.88 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4573cfda-e11d-42df-879c-c07be222a75b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.1894 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4302,7 +4248,7 @@
 	)
 	(global_label "USB_DATA_CONN_FTDI_P"
 		(shape input)
-		(at 118.11 82.55 180)
+		(at 121.92 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4312,7 +4258,7 @@
 		)
 		(uuid "55a39f4a-98b7-4765-9616-20ccfda51c64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.5671 82.55 0)
+			(at 96.3771 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4324,7 +4270,7 @@
 	)
 	(global_label "GPIO_UART_RXLED_FTDI_L"
 		(shape input)
-		(at 185.42 85.09 0)
+		(at 182.88 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4334,7 +4280,29 @@
 		)
 		(uuid "834f0099-499a-42ae-a9d3-1d50e44f676c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.2933 85.09 0)
+			(at 209.7533 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JTAG_FTDI_TDI_3P3"
+		(shape input)
+		(at 182.88 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "878c5c4c-4bca-4b93-bfa9-fd95236e578d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.5242 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4368,7 +4336,7 @@
 	)
 	(global_label "USB_DATA_CONN_FTDI_N"
 		(shape input)
-		(at 118.11 80.01 180)
+		(at 121.92 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4378,12 +4346,34 @@
 		)
 		(uuid "ad7e4e85-e298-45cc-a8e0-e67d3596b495")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.5066 80.01 0)
+			(at 96.3166 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JTAG_FTDI_TDO_3P3"
+		(shape input)
+		(at 182.88 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de5427d4-3e2b-485a-9477-e484cf7c91b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.2499 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
