@@ -1478,14 +1478,80 @@
 		)
 	)
 	(junction
-		(at 132.08 173.99)
+		(at 182.88 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91c46681-f8d1-4c4e-9011-c0c77d6ff989")
 	)
+	(no_connect
+		(at 97.79 140.97)
+		(uuid "2aface49-0471-41d8-9f3a-b28d3f1e78ee")
+	)
+	(no_connect
+		(at 172.72 49.53)
+		(uuid "3d211ae8-335a-4039-8609-9748943aa6d6")
+	)
+	(no_connect
+		(at 172.72 64.77)
+		(uuid "584c1a93-363a-4a75-957b-211bc5df9b1c")
+	)
+	(no_connect
+		(at 97.79 123.19)
+		(uuid "79184a5d-c8e0-4432-b853-3aead503cba2")
+	)
+	(no_connect
+		(at 97.79 146.05)
+		(uuid "84860218-7720-42ff-b699-da8d7220876b")
+	)
+	(no_connect
+		(at 97.79 135.89)
+		(uuid "963c3f18-0467-487e-8646-566854b1a030")
+	)
+	(no_connect
+		(at 172.72 62.23)
+		(uuid "9ecb53e4-af23-4ac4-8d83-b7456cef16e8")
+	)
+	(no_connect
+		(at 172.72 46.99)
+		(uuid "abe17f49-64b2-4488-bde7-fbd86ec1f297")
+	)
+	(no_connect
+		(at 172.72 54.61)
+		(uuid "c7a7b54b-3fc5-4bc0-8943-a742fa06f6ef")
+	)
+	(no_connect
+		(at 97.79 138.43)
+		(uuid "d4b934be-03b1-447c-a455-1e42b3554741")
+	)
+	(no_connect
+		(at 97.79 143.51)
+		(uuid "d90a3eaa-d58c-4689-8336-b9c2dca21f21")
+	)
+	(no_connect
+		(at 172.72 52.07)
+		(uuid "eb427eb2-4e98-49a8-bf91-e44cb9984f94")
+	)
+	(no_connect
+		(at 172.72 57.15)
+		(uuid "f2a4c1bd-2ba2-4188-b3a1-952717a387ec")
+	)
+	(no_connect
+		(at 172.72 59.69)
+		(uuid "fd49f2c1-e4c5-4e2d-847e-93cf7985af24")
+	)
 	(wire
 		(pts
-			(xy 129.54 173.99) (xy 132.08 173.99)
+			(xy 182.88 101.6) (xy 182.88 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b0d5eaf-94fa-4bf1-bf4b-5b78cd606e3e")
+	)
+	(wire
+		(pts
+			(xy 180.34 105.41) (xy 182.88 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1493,9 +1559,603 @@
 		)
 		(uuid "de49290b-0b86-4f9f-af0d-05ce4c3b7ba9")
 	)
+	(global_label "GPIO_CLK_EN_MCU_FPGA_3P3"
+		(shape input)
+		(at 92.71 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1afe6b89-b7ab-46e3-a304-7f6ae79d6ae9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.5142 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI_MISO_FPGA_MCU_3P3"
+		(shape input)
+		(at 97.79 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c16c02e-09df-41fe-bf29-74c1bf31cdac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.7842 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_DACB11_FPGA_DAC_3P3"
+		(shape input)
+		(at 92.71 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20b1558d-60bc-4368-b798-26a985d8253a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.3933 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_FPGARST_MCU_FPGA_3P3_L"
+		(shape input)
+		(at 97.79 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "235ba3ee-42bb-49c0-b6e7-5ff14b41791e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.739 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_DACB6_FPGA_DAC_3P3"
+		(shape input)
+		(at 92.71 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2b6baf6e-aa8e-4f2f-a9bb-552059d8146d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.1838 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_DACSLEEP_FPGA_DAC_3P3"
+		(shape input)
+		(at 97.79 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "41410a38-cf57-4b8d-b5ff-65e6b5fcaf23")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.5899 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_LED2_FPGA_LED_OD"
+		(shape input)
+		(at 92.71 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4eb11b17-f5b6-4289-8e97-338cbd19f798")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.4623 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CLK_10MHZ_DIST_FPGA_3P3"
+		(shape input)
+		(at 92.71 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6336d8aa-509a-474d-b650-c4ba21c426ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.0022 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_LED1_FPGA_LED_OD"
+		(shape input)
+		(at 92.71 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a4c5146-938b-46f2-b40e-29d92bfc30b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.4623 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_DACB9_FPGA_DAC_3P3"
+		(shape input)
+		(at 92.71 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e238c7a-9556-49ef-bb3c-daed811ebd2b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.1838 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_DACB5_FPGA_DAC_3P3"
+		(shape input)
+		(at 92.71 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7440350f-bdfd-4b89-9e9b-96da967521cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.1838 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_DACB8_FPGA_DAC_3P3"
+		(shape input)
+		(at 92.71 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75e0687d-a617-465e-9393-c30239550d11")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.1838 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI_MOSI_MCU_FPGA_3P3"
+		(shape input)
+		(at 97.79 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "783b3c23-58a3-4fe6-ba9c-e1baeb43ca45")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.7842 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_DACB1_FPGA_DAC_3P3"
+		(shape input)
+		(at 92.71 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c8dfb0b-6b33-45a3-b51b-98cf61b392d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.1838 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI_CS_MCU_FPGA_3P3_L"
+		(shape input)
+		(at 97.79 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e0e1e4c-2634-430b-8dc5-80a5c45d5b23")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.6632 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_DACB2_FPGA_DAC_3P3"
+		(shape input)
+		(at 92.71 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a21e56f-ad7b-4c04-b87d-ad9b544475e3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.1838 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_DACCLK_FPGA_DAC_3P3"
+		(shape input)
+		(at 97.79 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c20a809-6f6e-4cf9-900a-78fe48b8cdc9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.3524 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_DACB12_FPGA_DAC_3P3"
+		(shape input)
+		(at 97.79 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97c66ad9-3af7-4c0c-a4f1-d3290eaf110f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.4733 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_DACB0_FPGA_DAC_3P3"
+		(shape input)
+		(at 92.71 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b97c199-f113-431f-8026-6037b3c40410")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.1838 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_CFG_DONE_FPGA_MCU_3P3"
+		(shape input)
+		(at 72.39 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9db8d82d-ea90-4134-8820-c678de3909e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.9248 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI_SCLK_MCU_FPGA_3P3"
+		(shape input)
+		(at 97.79 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e569ee8-5a1f-4b49-abf1-cb1acfce1f2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.9656 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_DACB7_FPGA_DAC_3P3"
+		(shape input)
+		(at 92.71 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac29eb35-1278-4f0f-b72d-38fb2b643c9c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.1838 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_LED0_FPGA_LED_OD"
+		(shape input)
+		(at 92.71 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3aa80b5-66b9-4ff3-acc7-0e5e41173cf9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.4623 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_DACB4_FPGA_DAC_3P3"
+		(shape input)
+		(at 92.71 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8a91f42-51d0-4f4c-baa7-94205d488226")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.1838 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_DACB3_FPGA_DAC_3P3"
+		(shape input)
+		(at 92.71 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca59f82e-d2b9-434f-bbac-eb9ae7c167d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.1838 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_DACB10_FPGA_DAC_3P3"
+		(shape input)
+		(at 92.71 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d055d305-39eb-479c-bdd0-e71ffb493efa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.3933 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_DACB13_FPGA_DAC_3P3"
+		(shape input)
+		(at 97.79 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb79dfda-ddd9-4a69-8b77-ff31c1cbcfb2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.4733 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 194.31 0)
+		(at 180.34 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1504,7 +2164,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f1301ea-650f-4fab-a7aa-8f5b8243de6b")
 		(property "Reference" "#PWR051"
-			(at 129.54 200.66 0)
+			(at 180.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,7 +2173,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 199.39 0)
+			(at 180.34 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1521,7 +2181,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 194.31 0)
+			(at 180.34 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1530,7 +2190,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 194.31 0)
+			(at 180.34 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1539,7 +2199,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 194.31 0)
+			(at 180.34 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1561,7 +2221,7 @@
 	)
 	(symbol
 		(lib_id "FPGA_Lattice:ICE40UP5K-SG48ITR")
-		(at 52.07 52.07 0)
+		(at 82.55 62.23 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1570,7 +2230,7 @@
 		(dnp no)
 		(uuid "20d41047-7be5-45c4-9bdf-91ec47de25aa")
 		(property "Reference" "U2"
-			(at 43.18 52.0699 0)
+			(at 73.66 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1579,7 +2239,7 @@
 			)
 		)
 		(property "Value" "ICE40UP5K-SG48ITR"
-			(at 43.18 54.6099 0)
+			(at 73.66 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1588,7 +2248,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
-			(at 52.07 86.36 0)
+			(at 82.55 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1597,7 +2257,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra"
-			(at 62.23 26.67 0)
+			(at 92.71 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1606,7 +2266,7 @@
 			)
 		)
 		(property "Description" "iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN"
-			(at 52.07 52.07 0)
+			(at 82.55 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1772,7 +2432,7 @@
 	)
 	(symbol
 		(lib_id "FPGA_Lattice:ICE40UP5K-SG48ITR")
-		(at 163.83 41.91 0)
+		(at 182.88 52.07 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1780,7 +2440,7 @@
 		(dnp no)
 		(uuid "2217c52b-4e79-4893-ae93-ccb099bff3da")
 		(property "Reference" "U2"
-			(at 172.72 40.6399 0)
+			(at 191.77 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1789,7 +2449,7 @@
 			)
 		)
 		(property "Value" "ICE40UP5K-SG48ITR"
-			(at 172.72 43.1799 0)
+			(at 191.77 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1798,7 +2458,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
-			(at 163.83 76.2 0)
+			(at 182.88 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1807,7 +2467,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra"
-			(at 153.67 16.51 0)
+			(at 172.72 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1816,7 +2476,7 @@
 			)
 		)
 		(property "Description" "iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN"
-			(at 163.83 41.91 0)
+			(at 182.88 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1982,7 +2642,7 @@
 	)
 	(symbol
 		(lib_id "FPGA_Lattice:ICE40UP5K-SG48ITR")
-		(at 54.61 123.19 0)
+		(at 85.09 133.35 0)
 		(mirror y)
 		(unit 2)
 		(exclude_from_sim no)
@@ -1991,7 +2651,7 @@
 		(dnp no)
 		(uuid "34907880-be0b-4113-8039-65af92fce4e7")
 		(property "Reference" "U2"
-			(at 54.61 151.13 0)
+			(at 85.09 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1999,7 +2659,7 @@
 			)
 		)
 		(property "Value" "ICE40UP5K-SG48ITR"
-			(at 54.61 153.67 0)
+			(at 85.09 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2007,7 +2667,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
-			(at 54.61 157.48 0)
+			(at 85.09 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2016,7 +2676,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra"
-			(at 64.77 97.79 0)
+			(at 95.25 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2025,7 +2685,7 @@
 			)
 		)
 		(property "Description" "iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN"
-			(at 54.61 123.19 0)
+			(at 85.09 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2191,7 +2851,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V2")
-		(at 132.08 173.99 0)
+		(at 182.88 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2200,7 +2860,7 @@
 		(fields_autoplaced yes)
 		(uuid "469675a4-55d5-4a9e-8048-ecce10126991")
 		(property "Reference" "#PWR050"
-			(at 132.08 177.8 0)
+			(at 182.88 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2208,8 +2868,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V2"
-			(at 132.08 168.91 0)
+		(property "Value" "1P2V_D"
+			(at 182.88 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2217,7 +2877,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 173.99 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,7 +2886,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 173.99 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2235,7 +2895,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V2\""
-			(at 132.08 173.99 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2257,7 +2917,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 163.83 24.13 0)
+		(at 182.88 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2266,7 +2926,7 @@
 		(fields_autoplaced yes)
 		(uuid "48e13a0c-8ba2-4b33-b2b4-16aef4067fd1")
 		(property "Reference" "#PWR048"
-			(at 163.83 27.94 0)
+			(at 182.88 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2274,8 +2934,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 163.83 19.05 0)
+		(property "Value" "3P3V_D"
+			(at 182.88 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2283,7 +2943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 24.13 0)
+			(at 182.88 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2292,7 +2952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 24.13 0)
+			(at 182.88 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2301,7 +2961,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 163.83 24.13 0)
+			(at 182.88 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2323,7 +2983,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 54.61 95.25 0)
+		(at 85.09 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2332,7 +2992,7 @@
 		(fields_autoplaced yes)
 		(uuid "5fbae2d7-260d-4787-a94d-c707e48126ab")
 		(property "Reference" "#PWR047"
-			(at 54.61 99.06 0)
+			(at 85.09 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2340,8 +3000,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 54.61 90.17 0)
+		(property "Value" "3P3V_D"
+			(at 85.09 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2349,7 +3009,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 95.25 0)
+			(at 85.09 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2358,7 +3018,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 95.25 0)
+			(at 85.09 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2367,7 +3027,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 54.61 95.25 0)
+			(at 85.09 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2389,7 +3049,7 @@
 	)
 	(symbol
 		(lib_id "FPGA_Lattice:ICE40UP5K-SG48ITR")
-		(at 129.54 184.15 0)
+		(at 180.34 115.57 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2398,7 +3058,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f6e2959-acd2-4585-8e12-1ea93b78134b")
 		(property "Reference" "U2"
-			(at 135.89 182.8799 0)
+			(at 186.69 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2407,7 +3067,7 @@
 			)
 		)
 		(property "Value" "ICE40UP5K-SG48ITR"
-			(at 135.89 185.4199 0)
+			(at 186.69 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2416,7 +3076,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
-			(at 129.54 218.44 0)
+			(at 180.34 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,7 +3085,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra"
-			(at 119.38 158.75 0)
+			(at 170.18 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +3094,7 @@
 			)
 		)
 		(property "Description" "iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN"
-			(at 129.54 184.15 0)
+			(at 180.34 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2600,7 +3260,7 @@
 	)
 	(symbol
 		(lib_id "power:+2V5")
-		(at 127 173.99 0)
+		(at 177.8 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2609,7 +3269,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb3f83f0-13de-48c4-8a3c-ec995eca53af")
 		(property "Reference" "#PWR049"
-			(at 127 177.8 0)
+			(at 177.8 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2617,8 +3277,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+2V5"
-			(at 127 168.91 0)
+		(property "Value" "2P5V_D"
+			(at 177.8 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2626,7 +3286,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 173.99 0)
+			(at 177.8 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2635,7 +3295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 173.99 0)
+			(at 177.8 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2644,7 +3304,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 127 173.99 0)
+			(at 177.8 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,7 +3326,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 52.07 24.13 0)
+		(at 82.55 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2675,7 +3335,7 @@
 		(fields_autoplaced yes)
 		(uuid "d518a24a-8a43-4ce1-8fa4-1251c34f41cc")
 		(property "Reference" "#PWR046"
-			(at 52.07 27.94 0)
+			(at 82.55 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2683,8 +3343,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 52.07 19.05 0)
+		(property "Value" "3P3V_D"
+			(at 82.55 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,7 +3352,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 24.13 0)
+			(at 82.55 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2701,7 +3361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 24.13 0)
+			(at 82.55 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2710,7 +3370,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 52.07 24.13 0)
+			(at 82.55 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
