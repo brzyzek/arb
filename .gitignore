@@ -4,3 +4,4 @@
 # Ignore misc unrelated files.
 **/*.bkp
 **/.directory
+**/*.raw
