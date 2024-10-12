@@ -9,7 +9,6 @@
 		(date "2024-09-11")
 		(rev "0.0.1")
 		(company "Tomasz Brzyzek")
-		(comment 1 "Stasia Brzyzek")
 	)
 	(lib_symbols)
 	(text_box "2"
@@ -209,6 +208,26 @@
 	)
 	(text_box "TBD"
 		(exclude_from_sim no)
+		(at 165.1 111.76 0)
+		(size 19.05 3.81)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 72 72 1)
+			)
+		)
+		(uuid "6632f504-9e62-4b98-aecb-504266955ccc")
+	)
+	(text_box "TBD"
+		(exclude_from_sim no)
 		(at 165.1 135.89 0)
 		(size 19.05 3.81)
 		(stroke
@@ -350,6 +369,26 @@
 		)
 		(uuid "ad3108a1-6f02-4302-8db2-dd7b0350ae43")
 	)
+	(text_box "TBD"
+		(exclude_from_sim no)
+		(at 165.1 119.38 0)
+		(size 19.05 3.81)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 72 72 1)
+			)
+		)
+		(uuid "b2af73cf-66d8-4b7c-852a-2560481231a7")
+	)
 	(text_box "INITIAL RELEASE"
 		(exclude_from_sim no)
 		(at 208.28 22.86 0)
@@ -430,6 +469,26 @@
 			)
 		)
 		(uuid "f3a4c47b-48c3-4217-825d-9dcb3e5f829e")
+	)
+	(text_box "TBD"
+		(exclude_from_sim no)
+		(at 165.1 115.57 0)
+		(size 19.05 3.81)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 72 72 1)
+			)
+		)
+		(uuid "fff84930-5cb2-45df-bcb7-6c085ad336dc")
 	)
 	(text "NOTE: USED TO COPY & PASTE A BLANK HIERARCHAL SCHEMATIC SHEET."
 		(exclude_from_sim no)
@@ -520,6 +579,45 @@
 		)
 	)
 	(sheet
+		(at 109.22 111.76)
+		(size 55.88 3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "15631b2d-3708-4ae8-a4e9-7f8a7b587733")
+		(property "Sheetname" "ANALOG - STAGE 1"
+			(at 110.236 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "analog1.kicad_sch"
+			(at 109.22 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "arb"
+				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 109.22 81.28)
 		(size 55.88 3.81)
 		(stroke
@@ -592,7 +690,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
-					(page "4")
+					(page "3")
 				)
 			)
 		)
@@ -631,7 +729,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
-					(page "3")
+					(page "4")
 				)
 			)
 		)
@@ -788,6 +886,84 @@
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
 					(page "99")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 119.38)
+		(size 55.88 3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dd20ed2c-105a-40ef-bdba-a4198899f68e")
+		(property "Sheetname" "ANALOG - DC OFFSET"
+			(at 110.236 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "analogdc.kicad_sch"
+			(at 109.22 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "arb"
+				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 115.57)
+		(size 55.88 3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e46c6640-71a3-4b78-b602-0f6be9676e36")
+		(property "Sheetname" "ANALOG - STAGE 2"
+			(at 110.236 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "analog2.kicad_sch"
+			(at 109.22 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "arb"
+				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
+					(page "11")
 				)
 			)
 		)

@@ -5,4 +5,6 @@
   (lib (name "BRZK_FTDI")(type "KiCad")(uri "${BRZK_SYMBOL_DIR}/BRZK_FTDI.kicad_sym")(options "")(descr ""))
   (lib (name "BRZK_SWITCH")(type "KiCad")(uri "${BRZK_SYMBOL_DIR}/BRZK_SWITCH.kicad_sym")(options "")(descr ""))
   (lib (name "BRZK_DAC")(type "KiCad")(uri "${BRZK_SYMBOL_DIR}/BRZK_DAC.kicad_sym")(options "")(descr ""))
+  (lib (name "BRZK_OPAMP")(type "KiCad")(uri "${BRZK_SYMBOL_DIR}/BRZK_OPAMP.kicad_sym")(options "")(descr ""))
+  (lib (name "BRZK_MUX")(type "KiCad")(uri "${BRZK_SYMBOL_DIR}/BRZK_MUX.kicad_sym")(options "")(descr ""))
 )

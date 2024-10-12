@@ -9,10 +9,9 @@
 		(date "2024-09-11")
 		(rev "0.0.1")
 		(company "Tomasz Brzyzek")
-		(comment 1 "Stasia Brzyzek")
 	)
 	(lib_symbols
-		(symbol "Device:R_Small"
+		(symbol "Device:R_Small_US"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -28,7 +27,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "R_Small"
+			(property "Value" "R_Small_US"
 				(at 0.762 -1.016 0)
 				(effects
 					(font
@@ -55,7 +54,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
+			(property "Description" "Resistor, small US symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -64,7 +63,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R resistor"
+			(property "ki_keywords" "r resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -82,23 +81,34 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
 					(stroke
-						(width 0.2032)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "R_Small_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
 					(at 0 2.54 270)
-					(length 0.762)
+					(length 1.016)
 					(name "~"
 						(effects
 							(font
@@ -116,7 +126,7 @@
 				)
 				(pin passive line
 					(at 0 -2.54 90)
-					(length 0.762)
+					(length 1.016)
 					(name "~"
 						(effects
 							(font
@@ -674,7 +684,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Device:R_Small_US")
 		(at 229.87 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -716,7 +726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 229.87 130.81 0)
 			(effects
 				(font
@@ -750,7 +760,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Device:R_Small_US")
 		(at 229.87 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -792,7 +802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 229.87 111.76 0)
 			(effects
 				(font
@@ -826,7 +836,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Device:R_Small_US")
 		(at 229.87 142.24 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -868,7 +878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 229.87 142.24 0)
 			(effects
 				(font
@@ -902,7 +912,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Device:R_Small_US")
 		(at 229.87 167.64 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -944,7 +954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 229.87 167.64 0)
 			(effects
 				(font
@@ -978,7 +988,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Device:R_Small_US")
 		(at 229.87 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1020,7 +1030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 229.87 149.86 0)
 			(effects
 				(font
@@ -1054,7 +1064,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Device:R_Small_US")
 		(at 229.87 160.02 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1096,7 +1106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 229.87 160.02 0)
 			(effects
 				(font
@@ -1130,7 +1140,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Device:R_Small_US")
 		(at 229.87 123.19 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1172,7 +1182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 229.87 123.19 0)
 			(effects
 				(font
@@ -1206,7 +1216,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Device:R_Small_US")
 		(at 229.87 104.14 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1248,7 +1258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 229.87 104.14 0)
 			(effects
 				(font

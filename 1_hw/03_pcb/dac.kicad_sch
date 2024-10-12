@@ -9,7 +9,6 @@
 		(date "2024-09-11")
 		(rev "0.0.1")
 		(company "Tomasz Brzyzek")
-		(comment 1 "Stasia Brzyzek")
 	)
 	(lib_symbols
 		(symbol "BRZK_DAC:AD9744"
@@ -1667,7 +1666,7 @@
 				)
 			)
 		)
-		(symbol "Device:R_Small"
+		(symbol "Device:R_Small_US"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -1683,7 +1682,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "R_Small"
+			(property "Value" "R_Small_US"
 				(at 0.762 -1.016 0)
 				(effects
 					(font
@@ -1710,7 +1709,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
+			(property "Description" "Resistor, small US symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1719,7 +1718,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R resistor"
+			(property "ki_keywords" "r resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1737,23 +1736,34 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
 					(stroke
-						(width 0.2032)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "R_Small_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
 					(at 0 2.54 270)
-					(length 0.762)
+					(length 1.016)
 					(name "~"
 						(effects
 							(font
@@ -1771,7 +1781,7 @@
 				)
 				(pin passive line
 					(at 0 -2.54 90)
-					(length 0.762)
+					(length 1.016)
 					(name "~"
 						(effects
 							(font
@@ -2197,17 +2207,6 @@
 		)
 		(uuid "bf280232-5667-485f-8bc2-011583877c5f")
 	)
-	(text "DETERMINE HOW WE WANT TO CONNECT \nTHIS TO THE ANALOG CHAIN.\n\nDC OP AMP? TRANSFORMER COUPLED?"
-		(exclude_from_sim no)
-		(at 227.584 74.676 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d52ed4c7-48be-4ada-b5de-094a24144b52")
-	)
 	(global_label "GPIO_DACB7_FPGA_DAC_3P3"
 		(shape input)
 		(at 194.31 86.36 180)
@@ -2318,6 +2317,28 @@
 			)
 		)
 	)
+	(global_label "ANALOG_FPGA-DAC_OUT_N"
+		(shape input)
+		(at 224.79 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b8c1432-70b5-47e8-b25c-166920123325")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.6916 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO_DACB11_FPGA_DAC_3P3"
 		(shape input)
 		(at 194.31 96.52 180)
@@ -2336,6 +2357,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ANALOG_DDS_OUT_N"
+		(shape input)
+		(at 106.68 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "693452e3-988a-4c2b-8f5a-8e0990149559")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.4129 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2402,6 +2445,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ANALOG_FPGA-DAC_OUT_P"
+		(shape input)
+		(at 224.79 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4e466b7-bf84-4f30-9329-6f82fc54a446")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.6311 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2512,6 +2577,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ANALOG_DDS_OUT_P"
+		(shape input)
+		(at 106.68 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2fb6755-d8c0-4a40-870a-a752a191a349")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.3524 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2971,7 +3058,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Device:R_Small_US")
 		(at 255.27 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2981,7 +3068,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b5c5278-e7bb-473d-8c79-593db664e04a")
 		(property "Reference" "R?"
-			(at 257.81 90.17 0)
+			(at 257.81 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2990,7 +3077,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 257.81 92.71 0)
+			(at 257.81 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3016,7 +3103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 255.27 91.44 0)
 			(effects
 				(font
@@ -3182,7 +3269,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Device:R_Small_US")
 		(at 246.38 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3192,7 +3279,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ac3805e-40f8-4ff8-b607-67a76b90785a")
 		(property "Reference" "R?"
-			(at 248.92 90.17 0)
+			(at 248.92 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3201,7 +3288,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 248.92 92.71 0)
+			(at 248.92 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,7 +3314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 246.38 91.44 0)
 			(effects
 				(font

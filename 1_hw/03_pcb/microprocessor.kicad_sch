@@ -9,7 +9,6 @@
 		(date "2024-09-11")
 		(rev "0.0.1")
 		(company "Tomasz Brzyzek")
-		(comment 1 "Stasia Brzyzek")
 	)
 	(lib_symbols
 		(symbol "BRZK_STM32:STM32F446ZETx"
@@ -4017,7 +4016,7 @@
 				)
 			)
 		)
-		(symbol "Device:R_Small"
+		(symbol "Device:R_Small_US"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -4033,7 +4032,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "R_Small"
+			(property "Value" "R_Small_US"
 				(at 0.762 -1.016 0)
 				(effects
 					(font
@@ -4060,7 +4059,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
+			(property "Description" "Resistor, small US symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4069,7 +4068,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R resistor"
+			(property "ki_keywords" "r resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4087,23 +4086,34 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
 					(stroke
-						(width 0.2032)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "R_Small_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
 					(at 0 2.54 270)
-					(length 0.762)
+					(length 1.016)
 					(name "~"
 						(effects
 							(font
@@ -4121,7 +4131,7 @@
 				)
 				(pin passive line
 					(at 0 -2.54 90)
-					(length 0.762)
+					(length 1.016)
 					(name "~"
 						(effects
 							(font
@@ -5704,6 +5714,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 91.44) (xy 149.86 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8943ab7-e60a-472d-8857-3bd5edab1fc9")
+	)
+	(wire
+		(pts
 			(xy 78.74 20.32) (xy 78.74 21.59)
 		)
 		(stroke
@@ -6265,6 +6285,17 @@
 		)
 		(uuid "e181d7fc-ae57-4f2f-a49f-88fd49e5cd70")
 	)
+	(text "TB: ADD ONE MORE DAC, ONE MORE ADC. ALSO ADD ABOVE SIGNALS"
+		(exclude_from_sim no)
+		(at 148.59 112.014 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "eff978b0-f555-4816-abe6-16b68ea1da0f")
+	)
 	(global_label "JTAG_MCU_TCK_3P3"
 		(shape input)
 		(at 109.22 64.77 0)
@@ -6278,6 +6309,28 @@
 		(uuid "0e06fd2e-f3bb-455a-8285-260578e7fd89")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 130.6503 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_SEL0_MCU_AMUX1_3P3"
+		(shape input)
+		(at 149.86 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1868dc68-15b5-429a-a959-179f8dc0393e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.8174 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6388,6 +6441,28 @@
 		(uuid "24697414-514b-4cbf-91df-e261e27090e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 148.7932 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_SEL1_MCU_AMUX1_3P3"
+		(shape input)
+		(at 149.86 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "350828a3-bc86-4845-8c36-51b45c3b9e80")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.8174 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6661,6 +6736,28 @@
 			)
 		)
 	)
+	(global_label "GPIO_EN_MCU_AMUX1_3P3"
+		(shape input)
+		(at 149.86 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f523f0e-d214-4768-b9bb-8108c25a2266")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.7008 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO_BOOT0_SW_MCU_3P3_L"
 		(shape input)
 		(at 48.26 36.83 180)
@@ -6771,7 +6868,7 @@
 			)
 		)
 	)
-	(global_label "ANALOG_DAC_MCU_TBD"
+	(global_label "ANALOG_DAC_MCU_AMUX1"
 		(shape input)
 		(at 109.22 39.37 0)
 		(fields_autoplaced yes)
@@ -6783,7 +6880,7 @@
 		)
 		(uuid "dfff7baf-f506-46dc-88e4-7ec9c462fac7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.4324 39.37 0)
+			(at 136.2143 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6933,6 +7030,83 @@
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/1173c135-6710-44aa-af07-a45f7e01d96a"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 118.11 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "022383a3-22aa-4ca8-9e11-d4c6c189fba4")
+		(property "Reference" "R2"
+			(at 118.11 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 118.11 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 118.11 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 118.11 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "0603WAJ0000T5E"
+			(at 118.11 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b4b90c11-a3b4-4678-8be9-0f0a466b2c74")
+		)
+		(pin "1"
+			(uuid "84444ca6-d9d4-434f-b3b9-220ffa47e6f5")
+		)
+		(instances
+			(project "arb"
+				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/1173c135-6710-44aa-af07-a45f7e01d96a"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7915,82 +8089,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 118.11 31.75 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "28d95afb-e7ff-4e8e-a752-830ed38a866a")
-		(property "Reference" "R3"
-			(at 118.11 34.036 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 118.11 36.576 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 118.11 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "0603WAJ0000T5E"
-			(at 118.11 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c85b48a8-a380-4643-9ed6-3759041d5f1c")
-		)
-		(pin "2"
-			(uuid "37ec0184-95c3-4080-ad7d-33b0ad928e87")
-		)
-		(instances
-			(project "arb"
-				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/1173c135-6710-44aa-af07-a45f7e01d96a"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 208.28 27.94 0)
 		(unit 1)
@@ -8882,6 +8980,72 @@
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/1173c135-6710-44aa-af07-a45f7e01d96a"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6da545e5-1d21-4345-be1b-eb16c5c210f5")
+		(property "Reference" "#PWR0114"
+			(at 142.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_D"
+			(at 142.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f5bf089-7ec7-414a-a6fa-a9bbc304a8a2")
+		)
+		(instances
+			(project "arb"
+				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/1173c135-6710-44aa-af07-a45f7e01d96a"
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -9887,6 +10051,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 118.11 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c7a7c92-27c7-4b4a-94b9-55d9146bf9e0")
+		(property "Reference" "R3"
+			(at 118.11 34.036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 118.11 36.576 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 118.11 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 118.11 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "0603WAJ0000T5E"
+			(at 118.11 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6473bdfb-7cd0-4772-b28e-9d80d76b552a")
+		)
+		(pin "1"
+			(uuid "b6344ad4-31e2-429b-8a46-ee93f872139c")
+		)
+		(instances
+			(project "arb"
+				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/1173c135-6710-44aa-af07-a45f7e01d96a"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 215.9 52.07 0)
 		(unit 1)
@@ -10032,7 +10272,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Device:R_Small_US")
 		(at 16.51 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10042,7 +10282,7 @@
 		(fields_autoplaced yes)
 		(uuid "93db69a2-e441-4eb9-b3b5-de9d1a21af46")
 		(property "Reference" "R1"
-			(at 19.05 21.59 0)
+			(at 19.05 21.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10051,7 +10291,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 19.05 24.13 0)
+			(at 19.05 24.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10077,7 +10317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 16.51 22.86 0)
 			(effects
 				(font
@@ -10533,6 +10773,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 142.24 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5b8da36-bd06-422c-b3e9-93c5a534101e")
+		(property "Reference" "R?"
+			(at 144.78 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 144.78 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 142.24 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 142.24 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CR-03FC7---10K"
+			(at 142.24 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5af20335-0fd5-4cbf-b9be-1a7cc235d536")
+		)
+		(pin "2"
+			(uuid "b9ee429a-7b2a-4fd4-9b75-b84f10618a8d")
+		)
+		(instances
+			(project "arb"
+				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/1173c135-6710-44aa-af07-a45f7e01d96a"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 181.61 27.94 0)
 		(unit 1)
@@ -10672,83 +10991,6 @@
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/1173c135-6710-44aa-af07-a45f7e01d96a"
 					(reference "#PWR088")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 118.11 29.21 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "afb73468-2913-43be-8698-5eb20d31f19f")
-		(property "Reference" "R2"
-			(at 118.11 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 118.11 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 118.11 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "0603WAJ0000T5E"
-			(at 118.11 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "206dcd15-249a-47a0-aa26-35028c3aa8f5")
-		)
-		(pin "2"
-			(uuid "5290e1f6-a597-46eb-a803-d17ea750d9d1")
-		)
-		(instances
-			(project "arb"
-				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/1173c135-6710-44aa-af07-a45f7e01d96a"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -11605,7 +11847,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Device:R_Small_US")
 		(at 226.06 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11615,7 +11857,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6816308-28a5-4700-9ad4-01e3e5c5f898")
 		(property "Reference" "R?"
-			(at 226.06 147.32 90)
+			(at 226.06 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11623,7 +11865,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 226.06 149.86 90)
+			(at 226.06 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11648,7 +11890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 226.06 152.4 0)
 			(effects
 				(font
@@ -11827,7 +12069,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Device:R_Small_US")
 		(at 226.06 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11837,7 +12079,7 @@
 		(fields_autoplaced yes)
 		(uuid "cbd2683e-5167-46ef-bff6-16db788fdb0b")
 		(property "Reference" "R?"
-			(at 226.06 116.84 90)
+			(at 226.06 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11845,7 +12087,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 226.06 119.38 90)
+			(at 226.06 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11870,7 +12112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 226.06 121.92 0)
 			(effects
 				(font

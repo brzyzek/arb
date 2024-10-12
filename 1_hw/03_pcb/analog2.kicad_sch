@@ -1,0 +1,36 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "eade9b3b-9b82-4897-83fe-2c348b82c03b")
+	(paper "A")
+	(title_block
+		(title "ARBITRARY WAVEFORM GENERATOR")
+		(date "2024-09-11")
+		(rev "0.0.1")
+		(company "Tomasz Brzyzek")
+	)
+	(lib_symbols)
+	(global_label "ANALOG_STAGE-1_AMUX1_AMP"
+		(shape input)
+		(at 45.72 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79df3fb3-295f-459f-8c0d-6c946e02a44c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.1296 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+)

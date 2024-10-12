@@ -400,12 +400,12 @@
       "POWER"
     ],
     [
-      "59503b16-13c4-4480-8e22-c5a7043d8844",
-      "CLOCKING"
-    ],
-    [
       "3081f01b-0fc6-40b1-9db3-1dae5b3adecb",
       "POWER SEQUENCING"
+    ],
+    [
+      "59503b16-13c4-4480-8e22-c5a7043d8844",
+      "CLOCKING"
     ],
     [
       "1173c135-6710-44aa-af07-a45f7e01d96a",
@@ -426,6 +426,18 @@
     [
       "bd0aaaf9-692a-47fc-947f-13721638d3cf",
       "LEVEL TRANSLATION"
+    ],
+    [
+      "15631b2d-3708-4ae8-a4e9-7f8a7b587733",
+      "ANALOG - STAGE 1"
+    ],
+    [
+      "e46c6640-71a3-4b78-b602-0f6be9676e36",
+      "ANALOG - STAGE 2"
+    ],
+    [
+      "dd20ed2c-105a-40ef-bdba-a4198899f68e",
+      "ANALOG - DC OFFSET"
     ],
     [
       "eb105004-087f-4ea7-8291-809b214299af",

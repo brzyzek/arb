@@ -9,7 +9,6 @@
 		(date "2024-09-11")
 		(rev "0.0.1")
 		(company "Tomasz Brzyzek")
-		(comment 1 "Stasia Brzyzek")
 	)
 	(lib_symbols
 		(symbol "Power_Supervisor:LM3880"
