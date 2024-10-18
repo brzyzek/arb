@@ -4114,6 +4114,16 @@
 		)
 		(uuid "fa8c438d-a005-4026-8e12-42262713da39")
 	)
+	(text "TB: CREATE EEPROM SYMBOL + FOOTPRINT"
+		(exclude_from_sim no)
+		(at 71.374 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5196a05f-fd14-4e9c-bcfb-52750ff910e3")
+	)
 	(text "FTDI PIN 16: UART_FTDI_TXD\nFTDI PIN 17: UART_TFDI_RXD\n(LINES FLIPPED TO MCU)"
 		(exclude_from_sim no)
 		(at 198.628 62.992 0)
@@ -4579,7 +4589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Two pin crystal, small symbol"
 			(at 110.49 138.43 0)
 			(effects
 				(font
@@ -4658,7 +4668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 44.45 128.27 0)
 			(effects
 				(font
@@ -4803,7 +4813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 210.82 34.29 0)
 			(effects
 				(font
@@ -4882,7 +4892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 113.03 38.1 0)
 			(effects
 				(font
@@ -5027,7 +5037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 118.11 63.5 0)
 			(effects
 				(font
@@ -5805,7 +5815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 233.68 64.77 0)
 			(effects
 				(font
@@ -5949,7 +5959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 102.87 38.1 0)
 			(effects
 				(font
@@ -6457,7 +6467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 180.34 34.29 0)
 			(effects
 				(font
@@ -6536,7 +6546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 241.3 34.29 0)
 			(effects
 				(font
@@ -7024,7 +7034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 220.98 34.29 0)
 			(effects
 				(font
@@ -7557,7 +7567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 123.19 38.1 0)
 			(effects
 				(font
@@ -7636,7 +7646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 110.49 146.05 0)
 			(effects
 				(font
@@ -7845,7 +7855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor, small symbol"
 			(at 85.09 34.29 0)
 			(effects
 				(font
@@ -8267,7 +8277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 92.71 38.1 0)
 			(effects
 				(font
@@ -8623,7 +8633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 101.6 146.05 0)
 			(effects
 				(font
@@ -8766,7 +8776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor, small symbol"
 			(at 97.79 31.75 0)
 			(effects
 				(font
@@ -9109,7 +9119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 200.66 34.29 0)
 			(effects
 				(font
@@ -9188,7 +9198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 190.5 34.29 0)
 			(effects
 				(font
@@ -9267,7 +9277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 223.52 64.77 0)
 			(effects
 				(font
@@ -9566,7 +9576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 231.14 34.29 0)
 			(effects
 				(font

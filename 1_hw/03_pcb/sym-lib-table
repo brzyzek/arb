@@ -7,4 +7,5 @@
   (lib (name "BRZK_DAC")(type "KiCad")(uri "${BRZK_SYMBOL_DIR}/BRZK_DAC.kicad_sym")(options "")(descr ""))
   (lib (name "BRZK_OPAMP")(type "KiCad")(uri "${BRZK_SYMBOL_DIR}/BRZK_OPAMP.kicad_sym")(options "")(descr ""))
   (lib (name "BRZK_MUX")(type "KiCad")(uri "${BRZK_SYMBOL_DIR}/BRZK_MUX.kicad_sym")(options "")(descr ""))
+  (lib (name "BRZK_POT")(type "KiCad")(uri "${BRZK_SYMBOL_DIR}/BRZK_POT.kicad_sym")(options "")(descr ""))
 )

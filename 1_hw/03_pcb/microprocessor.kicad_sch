@@ -5714,16 +5714,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 91.44) (xy 149.86 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8943ab7-e60a-472d-8857-3bd5edab1fc9")
-	)
-	(wire
-		(pts
 			(xy 78.74 20.32) (xy 78.74 21.59)
 		)
 		(stroke
@@ -6223,6 +6213,16 @@
 		)
 		(uuid "257891a2-e2c7-41fa-b8ac-756562e2e5b5")
 	)
+	(text "TB: ASSIGN RESOURCES"
+		(exclude_from_sim no)
+		(at 162.56 86.868 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "538905e8-6044-4a57-8cd5-e2e0f1eb5315")
+	)
 	(text "BOOT1 SLIDE SWITCH"
 		(exclude_from_sim no)
 		(at 224.79 140.97 0)
@@ -6285,16 +6285,27 @@
 		)
 		(uuid "e181d7fc-ae57-4f2f-a49f-88fd49e5cd70")
 	)
-	(text "TB: ADD ONE MORE DAC, ONE MORE ADC. ALSO ADD ABOVE SIGNALS"
-		(exclude_from_sim no)
-		(at 148.59 112.014 0)
+	(global_label "I2C_SDA_MCU_POT_3P3"
+		(shape input)
+		(at 149.86 138.43 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 194 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "0947a91e-7371-4e9d-b393-7b9b6d27dbcb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.677 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(uuid "eff978b0-f555-4816-abe6-16b68ea1da0f")
 	)
 	(global_label "JTAG_MCU_TCK_3P3"
 		(shape input)
@@ -6560,6 +6571,72 @@
 			)
 		)
 	)
+	(global_label "I2C_SCL_MCU_POT_3P3"
+		(shape input)
+		(at 149.86 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59660c2d-da0f-4b68-b720-ffe1b98aabc0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.6165 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_SEL0_MCU_AMUX3_3P3"
+		(shape input)
+		(at 149.86 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c6610b2-8288-4cdd-9cce-94fb8cbd0d4c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.8174 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_EN_MCU_AMUX3_3P3"
+		(shape input)
+		(at 149.86 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6675de88-682e-46c0-ac84-8139360649ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.7008 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "QSPI_IO2_MCU_FLASH_3P3"
 		(shape input)
 		(at 48.26 146.05 180)
@@ -6661,6 +6738,50 @@
 		(uuid "8f209ee4-371d-434e-b9b3-836db59a8c0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 144.1365 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_AMP-PD_MCU_AMP2_3P3"
+		(shape input)
+		(at 149.86 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8fd24b12-f98b-43e9-9aa8-0c5d090f5793")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.8737 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ANALOG_DAC2_MCU_AMUX3"
+		(shape input)
+		(at 149.86 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92915ce1-2836-4b3e-8adf-665dd5e489e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.0638 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6824,6 +6945,28 @@
 			)
 		)
 	)
+	(global_label "ANALOG_CAL-ADC_AMUX2_MCU"
+		(shape input)
+		(at 149.86 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2e49593-cc86-46dc-9025-806e49072c81")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.8134 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO_FPGARST_MCU_FPGA_3P3_L"
 		(shape input)
 		(at 109.22 118.11 0)
@@ -6837,6 +6980,28 @@
 		(uuid "b444aa05-9097-42c1-b15d-47642cf2871e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 143.169 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_EN_MCU_AMUX2_3P3"
+		(shape input)
+		(at 149.86 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7808d24-ae5f-4992-9b41-33c14e0ce34d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.7008 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6868,7 +7033,29 @@
 			)
 		)
 	)
-	(global_label "ANALOG_DAC_MCU_AMUX1"
+	(global_label "GPIO_SEL1_MCU_AMUX3_3P3"
+		(shape input)
+		(at 149.86 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d576b0e8-39a9-4c01-b820-a907cb6739c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.8174 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ANALOG_DAC1_MCU_AMUX1"
 		(shape input)
 		(at 109.22 39.37 0)
 		(fields_autoplaced yes)
@@ -6880,7 +7067,7 @@
 		)
 		(uuid "dfff7baf-f506-46dc-88e4-7ec9c462fac7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.2143 39.37 0)
+			(at 137.4238 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6930,6 +7117,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_SEL_MCU_AMUX2_3P3"
+		(shape input)
+		(at 149.86 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6cdc9e9-8e89-4012-b423-b3f50b858d38")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.6079 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7002,7 +7211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 25.4 189.23 0)
 			(effects
 				(font
@@ -7290,7 +7499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 226.06 27.94 0)
 			(effects
 				(font
@@ -7567,7 +7776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 217.17 27.94 0)
 			(effects
 				(font
@@ -7844,7 +8053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 130.81 160.02 0)
 			(effects
 				(font
@@ -8055,7 +8264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 190.5 27.94 0)
 			(effects
 				(font
@@ -8134,7 +8343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 208.28 27.94 0)
 			(effects
 				(font
@@ -8213,7 +8422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 207.01 49.53 0)
 			(effects
 				(font
@@ -8424,7 +8633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 154.94 27.94 0)
 			(effects
 				(font
@@ -8986,72 +9195,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 142.24 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6da545e5-1d21-4345-be1b-eb16c5c210f5")
-		(property "Reference" "#PWR0114"
-			(at 142.24 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_D"
-			(at 142.24 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f5bf089-7ec7-414a-a6fa-a9bbc304a8a2")
-		)
-		(instances
-			(project "arb"
-				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/1173c135-6710-44aa-af07-a45f7e01d96a"
-					(reference "#PWR0114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 243.84 27.94 0)
 		(unit 1)
@@ -9097,7 +9240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 243.84 27.94 0)
 			(effects
 				(font
@@ -9176,7 +9319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 143.51 160.02 0)
 			(effects
 				(font
@@ -9255,7 +9398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 181.61 49.53 0)
 			(effects
 				(font
@@ -9674,7 +9817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 252.73 27.94 0)
 			(effects
 				(font
@@ -9819,7 +9962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 199.39 27.94 0)
 			(effects
 				(font
@@ -10238,7 +10381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 172.72 27.94 0)
 			(effects
 				(font
@@ -10528,7 +10671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 234.95 27.94 0)
 			(effects
 				(font
@@ -10607,7 +10750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Two pin crystal, small symbol"
 			(at 130.81 152.4 0)
 			(effects
 				(font
@@ -10773,85 +10916,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 142.24 93.98 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5b8da36-bd06-422c-b3e9-93c5a534101e")
-		(property "Reference" "R?"
-			(at 144.78 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 144.78 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 142.24 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 142.24 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "CR-03FC7---10K"
-			(at 142.24 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5af20335-0fd5-4cbf-b9be-1a7cc235d536")
-		)
-		(pin "2"
-			(uuid "b9ee429a-7b2a-4fd4-9b75-b84f10618a8d")
-		)
-		(instances
-			(project "arb"
-				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/1173c135-6710-44aa-af07-a45f7e01d96a"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 181.61 27.94 0)
 		(unit 1)
@@ -10897,7 +10961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 181.61 27.94 0)
 			(effects
 				(font
@@ -11734,7 +11798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 163.83 27.94 0)
 			(effects
 				(font
@@ -11813,7 +11877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 34.29 189.23 0)
 			(effects
 				(font
@@ -12035,7 +12099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 215.9 49.53 0)
 			(effects
 				(font
@@ -12333,7 +12397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 163.83 49.53 0)
 			(effects
 				(font
@@ -13014,7 +13078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 190.5 49.53 0)
 			(effects
 				(font
