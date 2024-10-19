@@ -2329,6 +2329,18 @@
 		(uuid 5547c2be-9e9a-4246-9ea8-d33247ac2f45)
 	)
 	(rectangle
+		(start 17.78 152.4)
+		(end 157.48 200.66)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 763dd071-3079-4aa6-898a-2eb3f5261e29)
+	)
+	(rectangle
 		(start 17.78 86.36)
 		(end 162.56 148.59)
 		(stroke
@@ -4355,7 +4367,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9330c34c-26f1-43a7-9173-ed27e01ec02a")
 		(property "Reference" "C?"

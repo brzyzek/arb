@@ -1,0 +1,23 @@
+Circuit: * C:\users\tom\Documents\Projects\arb\1_hw\04_sim\RVP+ATTN.asc
+
+WARNING: Less than two connections to node NC_01.  This node is used by R4.
+.OP point found by inspection.
+Heightened Def Con from 0.000186024 to 0.000186024
+
+Date: Sat Oct 19 18:50:10 2024
+Total elapsed time: 1.879 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2734584
+traniter = 2734584
+tranpoints = 855733
+accept = 539484
+rejected = 316250
+matrix size = 7
+fillins = 0
+solver = Normal
+Matrix Compiler1: 196 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: 399 bytes object code size  0.1/0.1/[0.1]
+
