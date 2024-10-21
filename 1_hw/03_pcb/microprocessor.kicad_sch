@@ -6215,7 +6215,7 @@
 	)
 	(text "TB: ASSIGN RESOURCES"
 		(exclude_from_sim no)
-		(at 162.56 86.868 0)
+		(at 224.79 232.918 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6285,9 +6285,31 @@
 		)
 		(uuid "e181d7fc-ae57-4f2f-a49f-88fd49e5cd70")
 	)
+	(global_label "GPIO_D0_MCU_DDS_3P3"
+		(shape input)
+		(at 148.59 265.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00e6b2db-8db7-4f71-a927-9c2ae424d313")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.8908 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C_SDA_MCU_POT_3P3"
 		(shape input)
-		(at 149.86 138.43 0)
+		(at 212.09 284.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6297,7 +6319,7 @@
 		)
 		(uuid "0947a91e-7371-4e9d-b393-7b9b6d27dbcb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.677 138.43 0)
+			(at 236.907 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6329,9 +6351,31 @@
 			)
 		)
 	)
+	(global_label "GPIO_D6_MCU_DDS_3P3"
+		(shape input)
+		(at 148.59 250.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0fadd9c0-a358-4f3a-bbab-cf124de4267f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.8908 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO_SEL0_MCU_AMUX1_3P3"
 		(shape input)
-		(at 149.86 105.41 0)
+		(at 212.09 251.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6341,7 +6385,7 @@
 		)
 		(uuid "1868dc68-15b5-429a-a959-179f8dc0393e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.8174 105.41 0)
+			(at 242.0474 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6461,9 +6505,75 @@
 			)
 		)
 	)
+	(global_label "GPIO_RST_MCU_DDS_3P3"
+		(shape input)
+		(at 148.59 237.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2554febb-f8ff-4742-9c4f-3fbc9335bfb8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.8584 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_D2_MCU_DDS_3P3"
+		(shape input)
+		(at 148.59 260.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2abd8f33-45dd-487a-889e-2f0954b66d09")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.8908 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_W-CLK_MCU_DDS_3P3"
+		(shape input)
+		(at 148.59 242.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2fdff01c-ae20-49e0-8bf3-e0d9d1026c5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.0032 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO_SEL1_MCU_AMUX1_3P3"
 		(shape input)
-		(at 149.86 102.87 0)
+		(at 212.09 248.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6473,7 +6583,7 @@
 		)
 		(uuid "350828a3-bc86-4845-8c36-51b45c3b9e80")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.8174 102.87 0)
+			(at 242.0474 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6518,6 +6628,28 @@
 		(uuid "3aa96498-6cdb-45be-9d87-a67eb7ebb82f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 130.7712 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_D5_MCU_DDS_3P3"
+		(shape input)
+		(at 148.59 252.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46e503a6-2ac8-459c-ba37-77495c757fd8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.8908 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6573,7 +6705,7 @@
 	)
 	(global_label "I2C_SCL_MCU_POT_3P3"
 		(shape input)
-		(at 149.86 135.89 0)
+		(at 212.09 281.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6583,7 +6715,7 @@
 		)
 		(uuid "59660c2d-da0f-4b68-b720-ffe1b98aabc0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.6165 135.89 0)
+			(at 236.8465 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6595,7 +6727,7 @@
 	)
 	(global_label "GPIO_SEL0_MCU_AMUX3_3P3"
 		(shape input)
-		(at 149.86 128.27 0)
+		(at 212.09 274.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6605,7 +6737,7 @@
 		)
 		(uuid "5c6610b2-8288-4cdd-9cce-94fb8cbd0d4c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.8174 128.27 0)
+			(at 242.0474 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6617,7 +6749,7 @@
 	)
 	(global_label "GPIO_EN_MCU_AMUX3_3P3"
 		(shape input)
-		(at 149.86 123.19 0)
+		(at 212.09 269.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6627,7 +6759,29 @@
 		)
 		(uuid "6675de88-682e-46c0-ac84-8139360649ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.7008 123.19 0)
+			(at 239.9308 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_D4_MCU_DDS_3P3"
+		(shape input)
+		(at 148.59 255.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7061701b-71b5-4935-9038-5f08bf2b98ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.8908 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6703,6 +6857,28 @@
 			)
 		)
 	)
+	(global_label "GPIO_D1_MCU_DDS_3P3"
+		(shape input)
+		(at 148.59 262.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85643387-9559-4d60-ac3e-2ecd9537a2cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.8908 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "JTAG_MCU_TDO_3P3"
 		(shape input)
 		(at 109.22 80.01 0)
@@ -6747,9 +6923,31 @@
 			)
 		)
 	)
+	(global_label "GPIO_FQ-UD_MCU_DDS_3P3"
+		(shape input)
+		(at 148.59 240.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f67dfb1-ae84-4050-bded-10c5d6516f5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.0033 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO_AMP-PD_MCU_AMP2_3P3"
 		(shape input)
-		(at 149.86 107.95 0)
+		(at 212.09 254 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6759,7 +6957,7 @@
 		)
 		(uuid "8fd24b12-f98b-43e9-9aa8-0c5d090f5793")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.8737 107.95 0)
+			(at 244.1037 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6771,7 +6969,7 @@
 	)
 	(global_label "ANALOG_DAC2_MCU_AMUX3"
 		(shape input)
-		(at 149.86 118.11 0)
+		(at 212.09 264.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6781,7 +6979,7 @@
 		)
 		(uuid "92915ce1-2836-4b3e-8adf-665dd5e489e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.0638 118.11 0)
+			(at 240.2938 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6859,7 +7057,7 @@
 	)
 	(global_label "GPIO_EN_MCU_AMUX1_3P3"
 		(shape input)
-		(at 149.86 91.44 0)
+		(at 212.09 237.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6869,7 +7067,7 @@
 		)
 		(uuid "9f523f0e-d214-4768-b9bb-8108c25a2266")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.7008 91.44 0)
+			(at 239.9308 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6947,7 +7145,7 @@
 	)
 	(global_label "ANALOG_CAL-ADC_AMUX2_MCU"
 		(shape input)
-		(at 149.86 120.65 0)
+		(at 212.09 266.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6957,7 +7155,7 @@
 		)
 		(uuid "b2e49593-cc86-46dc-9025-806e49072c81")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.8134 120.65 0)
+			(at 244.0434 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6991,7 +7189,7 @@
 	)
 	(global_label "GPIO_EN_MCU_AMUX2_3P3"
 		(shape input)
-		(at 149.86 130.81 0)
+		(at 212.09 276.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7001,7 +7199,7 @@
 		)
 		(uuid "b7808d24-ae5f-4992-9b41-33c14e0ce34d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.7008 130.81 0)
+			(at 239.9308 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7033,9 +7231,31 @@
 			)
 		)
 	)
+	(global_label "GPIO_D3_MCU_DDS_3P3"
+		(shape input)
+		(at 148.59 257.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d350b4ef-c36c-4778-971b-c4af99b7df39")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.8908 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO_SEL1_MCU_AMUX3_3P3"
 		(shape input)
-		(at 149.86 125.73 0)
+		(at 212.09 271.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7045,7 +7265,7 @@
 		)
 		(uuid "d576b0e8-39a9-4c01-b820-a907cb6739c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.8174 125.73 0)
+			(at 242.0474 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7123,7 +7343,7 @@
 	)
 	(global_label "GPIO_SEL_MCU_AMUX2_3P3"
 		(shape input)
-		(at 149.86 133.35 0)
+		(at 212.09 279.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7133,7 +7353,29 @@
 		)
 		(uuid "f6cdc9e9-8e89-4012-b423-b3f50b858d38")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.6079 133.35 0)
+			(at 240.8379 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_D7_MCU_DDS_3P3"
+		(shape input)
+		(at 148.59 247.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7408c13-7b76-47b4-85ce-f6c944b6e5b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.8908 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
