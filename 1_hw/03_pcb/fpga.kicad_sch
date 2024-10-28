@@ -2171,7 +2171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_D"
+		(property "Value" "GND"
 			(at 180.34 130.81 0)
 			(effects
 				(font
