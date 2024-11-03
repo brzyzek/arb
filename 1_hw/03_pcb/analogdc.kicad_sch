@@ -33,7 +33,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "TBD"
+			(property "Footprint" "BRZK_TBD"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -52,6 +52,15 @@
 				)
 			)
 			(property "Description" "5-pA on-state leakage current, ±16.5-V, 4:1, 1-channel precision analog multiplexer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "TMUX6104"
 				(at 0 0 0)
 				(effects
 					(font
@@ -842,6 +851,15 @@
 				)
 			)
 			(property "Description" "High Speed Low Power Low Distortion Voltage Feedback Amplifier, SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "LM6171D"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3506,6 +3524,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "LM6171D"
+			(at 106.68 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "55896dde-fb0e-48e7-9f8d-28f21d043bfd")
 		)
@@ -3630,7 +3657,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TBD"
+		(property "Footprint" "BRZK_TBD"
 			(at 204.47 105.41 0)
 			(effects
 				(font
@@ -3655,6 +3682,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part Number" "TMUX6104"
+			(at 204.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "13"

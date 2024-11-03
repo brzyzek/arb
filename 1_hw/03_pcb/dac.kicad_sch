@@ -58,6 +58,15 @@
 					(hide yes)
 				)
 			)
+			(property "Part Number" "AD9744ARUZRL7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "14bit DAC 1CH"
 				(at 0 0 0)
 				(effects
@@ -4048,6 +4057,15 @@
 			)
 		)
 		(property "Description" "210MSPS 14bit DAC, TSSOP-28"
+			(at 209.55 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "AD9744ARUZRL7"
 			(at 209.55 86.36 0)
 			(effects
 				(font

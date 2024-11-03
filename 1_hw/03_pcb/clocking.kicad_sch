@@ -15,23 +15,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U?"
-				(at 17.78 6.3186 0)
+			(property "Reference" "U"
+				(at 10.922 10.668 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "ADG1219BRJZ"
-				(at 17.78 3.7786 0)
+				(at 10.922 8.636 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "TBD"
+			(property "Footprint" "BRZK_TBD"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -49,7 +51,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Low Capacitance, Low Charge Injection, ±15 V/12 V iCMOS® SPDT in SOT-23"
+			(property "Description" "Low Capacitance, Low Charge Injection, ±15 V/12 V iCMOS® SPDT in SOT-23 "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "ADG1219BRJZ"
 				(at 0 0 0)
 				(effects
 					(font
@@ -90,7 +101,7 @@
 				)
 				(rectangle
 					(start -7.62 11.43)
-					(end 10.16 -5.08)
+					(end 10.16 -4.826)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -424,7 +435,7 @@
 					)
 				)
 				(pin power_in line
-					(at 5.08 -7.62 90)
+					(at 7.62 -7.62 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -442,7 +453,7 @@
 					)
 				)
 				(pin power_in line
-					(at 7.62 -7.62 90)
+					(at 5.08 -7.62 90)
 					(length 2.54)
 					(name "VSS"
 						(effects
@@ -769,7 +780,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TBD"
+		(property "Footprint" "BRZK_TBD"
 			(at 58.42 102.87 0)
 			(effects
 				(font
@@ -788,6 +799,15 @@
 			)
 		)
 		(property "Description" "Low Capacitance, Low Charge Injection, ±15 V/12 V iCMOS® SPDT in SOT-23"
+			(at 58.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "ADG1219BRJZ"
 			(at 58.42 100.33 0)
 			(effects
 				(font

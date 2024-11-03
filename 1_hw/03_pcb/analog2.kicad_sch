@@ -60,6 +60,15 @@
 					(hide yes)
 				)
 			)
+			(property "Part Number" "BAT54LT1G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "schottky diode"
 				(at 0 0 0)
 				(effects
@@ -177,23 +186,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U?"
-				(at 17.78 6.3186 0)
+			(property "Reference" "U"
+				(at 10.922 10.668 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "ADG1219BRJZ"
-				(at 17.78 3.7786 0)
+				(at 10.922 8.636 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "TBD"
+			(property "Footprint" "BRZK_TBD"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -211,7 +222,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Low Capacitance, Low Charge Injection, ±15 V/12 V iCMOS® SPDT in SOT-23"
+			(property "Description" "Low Capacitance, Low Charge Injection, ±15 V/12 V iCMOS® SPDT in SOT-23 "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "ADG1219BRJZ"
 				(at 0 0 0)
 				(effects
 					(font
@@ -252,7 +272,7 @@
 				)
 				(rectangle
 					(start -7.62 11.43)
-					(end 10.16 -5.08)
+					(end 10.16 -4.826)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -586,7 +606,7 @@
 					)
 				)
 				(pin power_in line
-					(at 5.08 -7.62 90)
+					(at 7.62 -7.62 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -604,7 +624,7 @@
 					)
 				)
 				(pin power_in line
-					(at 7.62 -7.62 90)
+					(at 5.08 -7.62 90)
 					(length 2.54)
 					(name "VSS"
 						(effects
@@ -659,7 +679,7 @@
 				)
 			)
 		)
-		(symbol "BRZK_OPAMP:THS34911DDA"
+		(symbol "BRZK_OPAMP:THS349"
 			(pin_names
 				(offset 0.127)
 			)
@@ -674,7 +694,7 @@
 					)
 				)
 			)
-			(property "Value" "THS34911DDA"
+			(property "Value" "THS3491"
 				(at 10.16 -2.54 0)
 				(effects
 					(font
@@ -709,6 +729,15 @@
 					(hide yes)
 				)
 			)
+			(property "Part Number" "THS3491IDDAR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "opamp single current feedback wideband"
 				(at 0 0 0)
 				(effects
@@ -727,7 +756,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "THS34911DDA_1_1"
+			(symbol "THS349_1_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -950,6 +979,15 @@
 				)
 			)
 			(property "Description" "128-TAPS Single-Channel Digital Potentiometer, I2C Interface, SC-70-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "TPL0401B-10DCKR "
 				(at 0 0 0)
 				(effects
 					(font
@@ -1629,6 +1667,12 @@
 		(uuid "15e1f95d-ddeb-4520-b7c0-f88a53f34e91")
 	)
 	(junction
+		(at 110.49 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18efbe13-56d5-4dfa-bd11-ecffca587438")
+	)
+	(junction
 		(at 181.61 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1711,12 +1755,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf95e822-4ed7-4898-9dfa-7f9f487f2207")
-	)
-	(junction
-		(at 110.49 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d44e77eb-e460-4e60-bb8e-99e9c6656dc8")
 	)
 	(wire
 		(pts
@@ -2583,6 +2621,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "TPL0401B-10DCKR "
+			(at 81.28 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "1e79fe5b-18f5-40d6-bc3b-7687e8f4dbd5")
 		)
@@ -3259,6 +3306,103 @@
 		)
 	)
 	(symbol
+		(lib_id "BRZK_OPAMP:THS349")
+		(at 113.03 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c6b5272-23c1-4a6a-acd3-d9743776f080")
+		(property "Reference" "U?"
+			(at 119.38 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "THS3491"
+			(at 119.38 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:Texas_R-PDSO-G8_EP2.95x4.9mm_Mask2.4x3.1mm"
+			(at 113.03 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ths3491.pdf"
+			(at 116.84 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "900-MHz, 500-mA High-Power Output Current Feedback Operational Amplifier, SOIC-8"
+			(at 113.03 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "THS3491IDDAR"
+			(at 127 80.0414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "dca44b86-2b78-4f8c-bd10-8788daae34ca")
+		)
+		(pin "1"
+			(uuid "1b4d944e-4fc4-4663-8d8f-de263de4d246")
+		)
+		(pin "3"
+			(uuid "9bcf7b61-85a4-4837-88c1-16a6a2cca6c5")
+		)
+		(pin "4"
+			(uuid "0b79288e-25a3-441e-9fa1-5dfac7cd9093")
+		)
+		(pin "9"
+			(uuid "79ec0bc6-902a-4f66-b6c5-59bf12811d59")
+		)
+		(pin "6"
+			(uuid "f7ca354f-5b9b-40e8-bf40-c10d738a32ff")
+		)
+		(pin "7"
+			(uuid "d4b4f210-094f-41e3-b315-c20281557fb7")
+		)
+		(pin "2"
+			(uuid "54d562a8-be9d-43e2-b876-4345923a7b42")
+		)
+		(pin "5"
+			(uuid "3b4aaf07-6791-4f07-9fde-8bcf9b1b9d6b")
+		)
+		(instances
+			(project ""
+				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/e46c6640-71a3-4b78-b602-0f6be9676e36"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 106.68 69.85 0)
 		(unit 1)
@@ -3331,95 +3475,6 @@
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/e46c6640-71a3-4b78-b602-0f6be9676e36"
 					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BRZK_OPAMP:THS34911DDA")
-		(at 113.03 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45214fac-c2d2-4fc9-8882-9bddfc0415e1")
-		(property "Reference" "U?"
-			(at 125.73 77.5014 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "THS34911DDA"
-			(at 125.73 80.0414 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:Texas_R-PDSO-G8_EP2.95x4.9mm_Mask2.4x3.1mm"
-			(at 113.03 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ths3491.pdf"
-			(at 116.84 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "900-MHz, 500-mA High-Power Output Current Feedback Operational Amplifier, SOIC-8"
-			(at 113.03 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "b8404ce0-4dd8-41c6-ba77-1b711eef9a9f")
-		)
-		(pin "1"
-			(uuid "9cbc8e46-4950-4aef-9412-549d9826a018")
-		)
-		(pin "9"
-			(uuid "1f1985ad-c0af-4e0d-aa1a-3e2f78633721")
-		)
-		(pin "4"
-			(uuid "e55969d6-2663-4e96-8937-1dd37995f64d")
-		)
-		(pin "2"
-			(uuid "0539a3e9-5307-467b-a165-137dde7f1b7b")
-		)
-		(pin "6"
-			(uuid "55465dff-fc79-41b4-ba2a-c7b490cd75f4")
-		)
-		(pin "7"
-			(uuid "a49801bf-1ea2-4ab2-ae48-ee081bd3fd41")
-		)
-		(pin "3"
-			(uuid "7846ef2b-0518-4ffe-89af-c19f35de7f39")
-		)
-		(pin "5"
-			(uuid "b15db48d-0ab6-450d-89a7-b7851bc5e104")
-		)
-		(instances
-			(project ""
-				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/e46c6640-71a3-4b78-b602-0f6be9676e36"
-					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -4356,6 +4411,86 @@
 		)
 	)
 	(symbol
+		(lib_id "BRZK_DIODE:BAT54L")
+		(at 214.63 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4f9ec43-0910-4c98-a3a7-6e029a3afe10")
+		(property "Reference" "D?"
+			(at 214.3125 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 214.3125 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 214.63 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/bat54lt1-d.pdf"
+			(at 214.63 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky barrier diode, SOT-32"
+			(at 214.63 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "BAT54LT1G"
+			(at 214.63 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6530d50a-87cc-4c88-b2d1-4a2695adaf8f")
+		)
+		(pin "3"
+			(uuid "500797cd-4dbe-47a6-bac1-f4b8134d88dc")
+		)
+		(pin "2"
+			(uuid "50df0204-784b-408c-b95d-c4348203c00d")
+		)
+		(instances
+			(project "arb"
+				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/e46c6640-71a3-4b78-b602-0f6be9676e36"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 105.41 97.79 0)
 		(unit 1)
@@ -4803,7 +4938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TBD"
+		(property "Footprint" "BRZK_TBD"
 			(at 201.93 86.36 0)
 			(effects
 				(font
@@ -4822,6 +4957,15 @@
 			)
 		)
 		(property "Description" "Low Capacitance, Low Charge Injection, ±15 V/12 V iCMOS® SPDT in SOT-23"
+			(at 201.93 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "ADG1219BRJZ"
 			(at 201.93 83.82 0)
 			(effects
 				(font
@@ -4991,77 +5135,6 @@
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/e46c6640-71a3-4b78-b602-0f6be9676e36"
 					(reference "#PWR0124")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BRZK_DIODE:BAT54L")
-		(at 214.63 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec211b03-06ba-46a0-958a-cceb380b1548")
-		(property "Reference" "D?"
-			(at 214.3125 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT54L"
-			(at 214.3125 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 214.63 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/bat54lt1-d.pdf"
-			(at 214.63 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky barrier diode, SOT-32"
-			(at 214.63 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1c6be79-889d-4c90-9181-8759ac80af3a")
-		)
-		(pin "3"
-			(uuid "9fe8ae20-9c61-4ea9-91a8-5c52f299d7ec")
-		)
-		(pin "2"
-			(uuid "5d14f931-8303-4a7d-bc31-ef6c17ee1982")
-		)
-		(instances
-			(project ""
-				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/e46c6640-71a3-4b78-b602-0f6be9676e36"
-					(reference "D?")
 					(unit 1)
 				)
 			)

@@ -60,6 +60,15 @@
 					(hide yes)
 				)
 			)
+			(property "Part Number" "FT2232HL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "USB Double UART FIFO"
 				(at 0 0 0)
 				(effects
@@ -1288,6 +1297,15 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "93LC56BT-I_OT"
+				(at 12.7 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4787,6 +4805,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "93LC56BT-I_OT"
+			(at 71.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f37bf7d3-d4e3-4a39-952f-5a4cbd2dbf7d")
 		)
@@ -5085,6 +5112,15 @@
 			)
 		)
 		(property "Description" "Hi Speed Double Channel USB UART/FIFO, LQFP-64"
+			(at 152.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "FT2232HL"
 			(at 152.4 102.87 0)
 			(effects
 				(font

@@ -61,12 +61,13 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "Part Number" "STM32F446ZET7"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "Arm Cortex-M4 STM32F4 STM32F446"
@@ -3322,7 +3323,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "BRZK_TBD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3341,6 +3342,15 @@
 				)
 			)
 			(property "Description" "Switch, single pole double throw /w Mounting Holes"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "SS-12D02-VG4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3532,7 +3542,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "BRZK_TBD"
 				(at 0 6.35 0)
 				(effects
 					(font
@@ -3552,6 +3562,15 @@
 			)
 			(property "Description" "Push button switch, generic, four pins"
 				(at 0.508 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "TS-1187A-B-A-B"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9655,7 +9674,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BRZK_TBD"
 			(at 236.22 152.4 0)
 			(effects
 				(font
@@ -9674,6 +9693,15 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw /w Mounting Holes"
+			(at 236.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SS-12D02-VG4"
 			(at 236.22 152.4 0)
 			(effects
 				(font
@@ -11104,6 +11132,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "STM32F446ZET7"
+			(at 78.74 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "129"
 			(uuid "82457d2b-9e2a-4ade-a982-74a4e76f4f15")
 		)
@@ -12225,7 +12262,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BRZK_TBD"
 			(at 236.22 121.92 0)
 			(effects
 				(font
@@ -12244,6 +12281,15 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw /w Mounting Holes"
+			(at 236.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SS-12D02-VG4"
 			(at 236.22 121.92 0)
 			(effects
 				(font
@@ -12513,7 +12559,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TS1187ABAB"
+		(property "Footprint" "BRZK_TBD"
 			(at 232.41 67.31 0)
 			(effects
 				(font
@@ -12533,6 +12579,15 @@
 		)
 		(property "Description" "Push button switch, generic, four pins"
 			(at 232.918 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TS-1187A-B-A-B"
+			(at 232.41 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
