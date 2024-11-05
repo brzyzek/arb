@@ -10,4 +10,5 @@
   (lib (name "BRZK_POT")(type "KiCad")(uri "${BRZK_SYMBOL_DIR}/BRZK_POT.kicad_sym")(options "")(descr ""))
   (lib (name "BRZK_DIODE")(type "KiCad")(uri "${BRZK_SYMBOL_DIR}/BRZK_DIODE.kicad_sym")(options "")(descr ""))
   (lib (name "BRZK_MEMORY")(type "KiCad")(uri "${BRZK_SYMBOL_DIR}/BRZK_MEMORY.kicad_sym")(options "")(descr ""))
+  (lib (name "BRZK_POWER")(type "KiCad")(uri "${BRZK_SYMBOL_DIR}/BRZK_POWER.kicad_sym")(options "")(descr ""))
 )

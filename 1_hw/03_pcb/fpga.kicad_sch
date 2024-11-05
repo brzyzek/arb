@@ -1558,6 +1558,16 @@
 		)
 		(uuid "de49290b-0b86-4f9f-af0d-05ce4c3b7ba9")
 	)
+	(text "TB: INCLUDE RC-BASED NOISE FILTER ON VCCPLL?"
+		(exclude_from_sim no)
+		(at 211.582 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d232fbd3-45ea-49bd-a03e-bbf18642a789")
+	)
 	(global_label "GPIO_CLK_EN_MCU_FPGA_3P3"
 		(shape input)
 		(at 92.71 67.31 0)

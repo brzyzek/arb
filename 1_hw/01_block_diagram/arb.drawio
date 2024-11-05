@@ -182,15 +182,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0v_q_Fc_srmC1XMnfLpZ" name="Power">
-    <mxGraphModel dx="979" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1136" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="YINHQHmYNT0PAt0SdOAC-1" value="1.2&lt;span style=&quot;background-color: initial;&quot;&gt;V REGULATOR&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;glass=0;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="500" y="530" width="78.74" height="78.74" as="geometry" />
+          <mxGeometry x="500" y="634" width="78.74" height="78.74" as="geometry" />
         </mxCell>
         <mxCell id="YINHQHmYNT0PAt0SdOAC-2" value="3.3&lt;span style=&quot;background-color: initial;&quot;&gt;V&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;DIGITAL REGULATOR&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;glass=0;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="500" y="410" width="78.74" height="78.74" as="geometry" />
+          <mxGeometry x="500" y="402" width="78.74" height="78.74" as="geometry" />
         </mxCell>
         <mxCell id="YINHQHmYNT0PAt0SdOAC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=12;fontColor=default;" parent="1" source="YINHQHmYNT0PAt0SdOAC-3" target="YINHQHmYNT0PAt0SdOAC-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -213,32 +213,41 @@
             <mxPoint y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="UegQGEq5BEOhNeJGFmx0-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YINHQHmYNT0PAt0SdOAC-4" target="UegQGEq5BEOhNeJGFmx0-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UegQGEq5BEOhNeJGFmx0-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YINHQHmYNT0PAt0SdOAC-4" target="YINHQHmYNT0PAt0SdOAC-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UegQGEq5BEOhNeJGFmx0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YINHQHmYNT0PAt0SdOAC-4" target="ToyVIYMOhtNc_kdeR2yI-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UegQGEq5BEOhNeJGFmx0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YINHQHmYNT0PAt0SdOAC-4" target="0OcvLtrXdKcohAOLdkNr-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UegQGEq5BEOhNeJGFmx0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YINHQHmYNT0PAt0SdOAC-4" target="DzWO17L_cvo9QqJHI-5A-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YINHQHmYNT0PAt0SdOAC-4" value="FILTERING &amp;amp; TVS PROTECTION" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;glass=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="280" y="471" width="78.74" height="78.74" as="geometry" />
         </mxCell>
         <mxCell id="0OcvLtrXdKcohAOLdkNr-1" value="3.3&lt;span style=&quot;background-color: initial;&quot;&gt;V&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ANALOG REGULATOR&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;glass=0;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="500" y="300" width="78.74" height="78.74" as="geometry" />
+          <mxGeometry x="500" y="286" width="78.74" height="78.74" as="geometry" />
         </mxCell>
         <mxCell id="ToyVIYMOhtNc_kdeR2yI-1" value="&lt;span style=&quot;background-color: initial;&quot;&gt;2.5V REGULATOR&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;glass=0;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="500" y="650" width="78.74" height="78.74" as="geometry" />
+          <mxGeometry x="500" y="750" width="78.74" height="78.74" as="geometry" />
         </mxCell>
         <mxCell id="Hn3ZL3rkfmZSEnzZVCto-1" value="&lt;b&gt;POWER SEQUENCER&lt;/b&gt;&lt;div&gt;LM3880&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;glass=0;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="294.37" y="578.74" width="90" height="150" as="geometry" />
+          <mxGeometry x="274.37" y="610" width="90" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="Hn3ZL3rkfmZSEnzZVCto-3" value="SEQUENCING:&lt;div&gt;3.3V&lt;/div&gt;&lt;div&gt;2.5V&lt;/div&gt;&lt;div&gt;1.2V&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="309.37" y="760" width="60" height="30" as="geometry" />
+        <mxCell id="Hn3ZL3rkfmZSEnzZVCto-3" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;SEQUENCING:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.2V -&amp;gt; 3.3VFPGA -&amp;gt; 2.5V&lt;/div&gt;&lt;div&gt;SEQUENCING STARTS AFTER 3.3V DIGITAL IS ENABLED&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="244.68" y="791.26" width="149.37" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DzWO17L_cvo9QqJHI-5A-1" value="&lt;span style=&quot;background-color: initial;&quot;&gt;15V&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ANALOG REGULATOR&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;glass=0;shadow=0;" parent="1" vertex="1">
+        <mxCell id="DzWO17L_cvo9QqJHI-5A-1" value="&lt;span style=&quot;background-color: initial;&quot;&gt;+15V/-15V&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ANALOG REGULATOR&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;glass=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="500" y="170" width="78.74" height="78.74" as="geometry" />
         </mxCell>
-        <mxCell id="DzWO17L_cvo9QqJHI-5A-2" value="&lt;span style=&quot;background-color: initial;&quot;&gt;-15V ANALOG REGULATOR&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;glass=0;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="500" y="70" width="78.74" height="78.74" as="geometry" />
-        </mxCell>
-        <mxCell id="koUJ0DAtSk7yej-h3fet-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="koUJ0DAtSk7yej-h3fet-1" target="DzWO17L_cvo9QqJHI-5A-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="koUJ0DAtSk7yej-h3fet-1" value="&lt;span style=&quot;background-color: initial;&quot;&gt;-5V CHARGE PUMP&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;glass=0;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="384.37" y="70" width="78.74" height="78.74" as="geometry" />
+        <mxCell id="UegQGEq5BEOhNeJGFmx0-1" value="3.3&lt;span style=&quot;background-color: initial;&quot;&gt;V&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;DIGITAL FPGA REGULATOR&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;glass=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="518" width="78.74" height="78.74" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
