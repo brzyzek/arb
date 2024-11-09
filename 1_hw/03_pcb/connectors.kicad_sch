@@ -507,6 +507,28 @@
 			)
 		)
 	)
+	(global_label "ANALOG_STAGE-2_AMUX2_EXT"
+		(shape input)
+		(at 143.51 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6986be10-28f7-4bec-8141-5e1225e12638")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.6165 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "JTAG_MCU_TDI_3P3"
 		(shape input)
 		(at 243.84 142.24 0)
@@ -617,6 +639,28 @@
 			)
 		)
 	)
+	(global_label "CLK_10MHZ_EXT_SW_3P3"
+		(shape input)
+		(at 144.78 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b9a187a5-1726-45f0-8c28-76f9bc5d0369")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.2901 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "JTAG_MCU_TCK_3P3"
 		(shape input)
 		(at 243.84 104.14 0)
@@ -630,6 +674,28 @@
 		(uuid "d0663a23-a278-4f4a-8fdf-1eaabc5367f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 265.2703 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CLK_10MHZ_DIST_EXT_3P3"
+		(shape input)
+		(at 144.78 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db6d5945-b7e9-46ba-bd28-d55165907fdc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.6811 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
