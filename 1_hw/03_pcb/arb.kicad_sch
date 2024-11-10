@@ -54,7 +54,7 @@
 		)
 		(uuid "055cb14a-0792-4ba2-a46f-215aebb4c809")
 	)
-	(text_box "TBD"
+	(text_box "3"
 		(exclude_from_sim no)
 		(at 165.1 85.09 0)
 		(size 19.05 3.81)
@@ -97,7 +97,7 @@
 		)
 		(uuid "20bb2244-dbae-4f72-8106-e9df9b3bfd50")
 	)
-	(text_box "TBD"
+	(text_box "4"
 		(exclude_from_sim no)
 		(at 165.1 88.9 0)
 		(size 19.05 3.81)
@@ -186,7 +186,7 @@
 		)
 		(uuid "3f6a981a-3190-4ac2-9bcf-92626abed2d4")
 	)
-	(text_box "TBD"
+	(text_box "7"
 		(exclude_from_sim no)
 		(at 165.1 100.33 0)
 		(size 19.05 3.81)
@@ -206,7 +206,7 @@
 		)
 		(uuid "51c4fcd4-ecad-4933-9fed-2ab2cc4c253c")
 	)
-	(text_box "TBD"
+	(text_box "8"
 		(exclude_from_sim no)
 		(at 165.1 104.14 0)
 		(size 19.05 3.81)
@@ -226,9 +226,9 @@
 		)
 		(uuid "6632f504-9e62-4b98-aecb-504266955ccc")
 	)
-	(text_box "TBD"
+	(text_box "11"
 		(exclude_from_sim no)
-		(at 165.1 135.89 0)
+		(at 165.1 115.57 0)
 		(size 19.05 3.81)
 		(stroke
 			(width 0)
@@ -269,7 +269,7 @@
 		)
 		(uuid "90b03f3b-8994-48c8-80d3-5f97d93d4f16")
 	)
-	(text_box "TBD"
+	(text_box "6"
 		(exclude_from_sim no)
 		(at 165.1 96.52 0)
 		(size 19.05 3.81)
@@ -329,7 +329,7 @@
 		)
 		(uuid "ad3108a1-6f02-4302-8db2-dd7b0350ae43")
 	)
-	(text_box "TBD"
+	(text_box "10"
 		(exclude_from_sim no)
 		(at 165.1 111.76 0)
 		(size 19.05 3.81)
@@ -390,7 +390,7 @@
 		)
 		(uuid "c98ecee2-77a8-40d9-929f-155f1e90863f")
 	)
-	(text_box "TBD"
+	(text_box "5"
 		(exclude_from_sim no)
 		(at 165.1 92.71 0)
 		(size 19.05 3.81)
@@ -430,7 +430,7 @@
 		)
 		(uuid "f3a4c47b-48c3-4217-825d-9dcb3e5f829e")
 	)
-	(text_box "TBD"
+	(text_box "9"
 		(exclude_from_sim no)
 		(at 165.1 107.95 0)
 		(size 19.05 3.81)
@@ -452,7 +452,7 @@
 	)
 	(text "NOTE: USED TO COPY & PASTE A BLANK HIERARCHAL SCHEMATIC SHEET."
 		(exclude_from_sim no)
-		(at 144.018 149.606 0)
+		(at 144.018 213.106 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -494,7 +494,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
-					(page "5")
+					(page "4")
 				)
 			)
 		)
@@ -533,7 +533,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
-					(page "6")
+					(page "5")
 				)
 			)
 		)
@@ -572,7 +572,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
-					(page "10")
+					(page "8")
 				)
 			)
 		)
@@ -650,7 +650,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
-					(page "4")
+					(page "3")
 				)
 			)
 		)
@@ -689,7 +689,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
-					(page "7")
+					(page "6")
 				)
 			)
 		)
@@ -728,13 +728,13 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
-					(page "8")
+					(page "7")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 109.22 151.13)
+		(at 109.22 214.63)
 		(size 55.88 3.81)
 		(stroke
 			(width 0.1524)
@@ -746,7 +746,7 @@
 		)
 		(uuid "d28261b1-c955-4283-8a47-f8291dd1b7a6")
 		(property "Sheetname" "BLANK TEMPLATE"
-			(at 110.236 153.162 0)
+			(at 110.236 216.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -755,7 +755,7 @@
 			)
 		)
 		(property "Sheetfile" "blank_template.kicad_sch"
-			(at 109.22 155.5246 0)
+			(at 109.22 219.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -806,7 +806,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
-					(page "12")
+					(page "10")
 				)
 			)
 		)
@@ -845,13 +845,13 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
-					(page "11")
+					(page "9")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 109.22 135.89)
+		(at 109.22 115.57)
 		(size 55.88 3.81)
 		(stroke
 			(width 0.1524)
@@ -863,7 +863,7 @@
 		)
 		(uuid "eb105004-087f-4ea7-8291-809b214299af")
 		(property "Sheetname" "CONNECTORS"
-			(at 110.236 137.922 0)
+			(at 110.236 117.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -872,7 +872,7 @@
 			)
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
-			(at 109.22 140.2846 0)
+			(at 109.22 119.9646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -884,7 +884,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
-					(page "20")
+					(page "11")
 				)
 			)
 		)
