@@ -2897,7 +2897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b9a203b-40bc-4282-b0fd-3a29c07a05fb")
-		(property "Reference" "U?"
+		(property "Reference" "U17"
 			(at 96.1741 63.5 0)
 			(effects
 				(font
@@ -3029,7 +3029,7 @@
 		(instances
 			(project ""
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/7126ceca-2dec-4994-855f-f217c0acdc71"
-					(reference "U?")
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -3177,7 +3177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b0ee089-4137-497e-bac0-24c63441ba3f")
-		(property "Reference" "R?"
+		(property "Reference" "R47"
 			(at 125.73 106.6799 0)
 			(effects
 				(font
@@ -3240,7 +3240,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/7126ceca-2dec-4994-855f-f217c0acdc71"
-					(reference "R?")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -3256,7 +3256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b5c5278-e7bb-473d-8c79-593db664e04a")
-		(property "Reference" "R?"
+		(property "Reference" "R49"
 			(at 257.81 90.1699 0)
 			(effects
 				(font
@@ -3319,7 +3319,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/7126ceca-2dec-4994-855f-f217c0acdc71"
-					(reference "R?")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -3533,7 +3533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ac3805e-40f8-4ff8-b607-67a76b90785a")
-		(property "Reference" "R?"
+		(property "Reference" "R48"
 			(at 248.92 90.1699 0)
 			(effects
 				(font
@@ -3596,7 +3596,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/7126ceca-2dec-4994-855f-f217c0acdc71"
-					(reference "R?")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -3942,7 +3942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef883552-4d79-4002-aa57-2ffdf3df5319")
-		(property "Reference" "C?"
+		(property "Reference" "C87"
 			(at 237.49 100.3363 0)
 			(effects
 				(font
@@ -4005,7 +4005,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/7126ceca-2dec-4994-855f-f217c0acdc71"
-					(reference "C?")
+					(reference "C87")
 					(unit 1)
 				)
 			)

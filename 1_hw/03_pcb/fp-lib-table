@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BRZK_CONN_COAX")(type "KiCad")(uri "${BRZK_FOOTPRINT_DIR}/BRZK_CONN_COAX.pretty")(options "")(descr "Coaxial Connector Footprints"))
+)

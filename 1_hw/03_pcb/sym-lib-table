@@ -12,4 +12,5 @@
   (lib (name "BRZK_MEMORY")(type "KiCad")(uri "${BRZK_SYMBOL_DIR}/BRZK_MEMORY.kicad_sym")(options "")(descr ""))
   (lib (name "BRZK_POWER")(type "KiCad")(uri "${BRZK_SYMBOL_DIR}/BRZK_POWER.kicad_sym")(options "")(descr ""))
   (lib (name "BRZK_CLOCK")(type "KiCad")(uri "${BRZK_SYMBOL_DIR}/BRZK_CLOCK.kicad_sym")(options "")(descr ""))
+  (lib (name "BRZK_CONN_USB")(type "KiCad")(uri "${BRZK_SYMBOL_DIR}/BRZK_CONN_USB.kicad_sym")(options "")(descr ""))
 )

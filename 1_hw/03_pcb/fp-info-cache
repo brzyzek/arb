@@ -1,4 +1,4 @@
-23683247700187373
+23686710126708258
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +13,20 @@ audio belton reverb
 0
 7
 7
+BRZK_CONN_COAX
+BNC_TH_Horizontal_DOSIN-801-0050
+BNC dosinconn DOSIN-801-0050
+BNC RF interface bayonet 50ohm
+0
+5
+2
+BRZK_CONN_COAX
+SMA_TH_Horizontal_KH-SMA-K513-G
+Shenzhen Kinghelm Elec  KH-SMA-K513-G
+SMA THT Female Jack Horizontal
+0
+5
+2
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
