@@ -2444,7 +2444,7 @@
 			)
 		)
 	)
-	(global_label "JTAG_FTDI_TMS_3P3"
+	(global_label "JTAG_CON_TMS_3P3"
 		(shape input)
 		(at 50.8 161.29 0)
 		(fields_autoplaced yes)
@@ -2454,7 +2454,7 @@
 			)
 			(justify left)
 		)
-		(uuid "4aecafa1-b14e-42cb-95f9-98e8b3ba0829")
+		(uuid "48c6c5a1-e109-4235-8546-c70a02209d4c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 72.2303 161.29 0)
 			(effects
@@ -2783,7 +2783,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0330213a-e51d-4ca1-b89f-e99fd3902c10")
-		(property "Reference" "R88"
+		(property "Reference" "R94"
 			(at 229.87 165.354 90)
 			(effects
 				(font
@@ -2853,7 +2853,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/eb105004-087f-4ea7-8291-809b214299af"
-					(reference "R88")
+					(reference "R94")
 					(unit 1)
 				)
 			)
@@ -2870,7 +2870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b712811-1a30-43c1-82cf-d5d0519412b6")
-		(property "Reference" "#PWR0266"
+		(property "Reference" "#PWR0281"
 			(at 35.56 121.92 0)
 			(effects
 				(font
@@ -2905,7 +2905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CHASSIS GROUND"
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
 			(at 35.56 116.84 0)
 			(effects
 				(font
@@ -2920,7 +2920,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/eb105004-087f-4ea7-8291-809b214299af"
-					(reference "#PWR0266")
+					(reference "#PWR0281")
 					(unit 1)
 				)
 			)
@@ -2973,7 +2973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BNC Connector, Through-Hole, Horizontal"
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 35.56 135.89 0)
 			(effects
 				(font
@@ -3135,7 +3135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "342d1929-92a0-4cd9-b8e0-905f643c783f")
-		(property "Reference" "#PWR0268"
+		(property "Reference" "#PWR0283"
 			(at 36.83 163.83 0)
 			(effects
 				(font
@@ -3185,7 +3185,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/eb105004-087f-4ea7-8291-809b214299af"
-					(reference "#PWR0268")
+					(reference "#PWR0283")
 					(unit 1)
 				)
 			)
@@ -3200,7 +3200,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b179a80-2207-4e3c-9288-a5296d93a5cb")
-		(property "Reference" "R83"
+		(property "Reference" "R89"
 			(at 229.87 120.904 90)
 			(effects
 				(font
@@ -3270,7 +3270,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/eb105004-087f-4ea7-8291-809b214299af"
-					(reference "R83")
+					(reference "R89")
 					(unit 1)
 				)
 			)
@@ -3286,7 +3286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4346fe8f-0869-4545-ad54-6a13e40b7083")
-		(property "Reference" "R80"
+		(property "Reference" "R86"
 			(at 93.98 35.5599 0)
 			(effects
 				(font
@@ -3358,7 +3358,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/eb105004-087f-4ea7-8291-809b214299af"
-					(reference "R80")
+					(reference "R86")
 					(unit 1)
 				)
 			)
@@ -3411,7 +3411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMA Connector, Through-Hole, Horizontal"
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 35.56 87.63 0)
 			(effects
 				(font
@@ -3594,7 +3594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e69c2c2-bade-472e-bdf4-034d7a83f3ae")
-		(property "Reference" "#PWR0271"
+		(property "Reference" "#PWR0286"
 			(at 82.55 45.72 0)
 			(effects
 				(font
@@ -3644,7 +3644,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/eb105004-087f-4ea7-8291-809b214299af"
-					(reference "#PWR0271")
+					(reference "#PWR0286")
 					(unit 1)
 				)
 			)
@@ -3661,7 +3661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65e21431-c9f5-4844-a9b1-a5145f085260")
-		(property "Reference" "#PWR0267"
+		(property "Reference" "#PWR0282"
 			(at 35.56 146.05 0)
 			(effects
 				(font
@@ -3696,7 +3696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CHASSIS GROUND"
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
 			(at 35.56 140.97 0)
 			(effects
 				(font
@@ -3711,7 +3711,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/eb105004-087f-4ea7-8291-809b214299af"
-					(reference "#PWR0267")
+					(reference "#PWR0282")
 					(unit 1)
 				)
 			)
@@ -3727,7 +3727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b66b3eb7-55b9-4596-a5b6-09a32c822a77")
-		(property "Reference" "#PWR0269"
+		(property "Reference" "#PWR0284"
 			(at 36.83 179.07 0)
 			(effects
 				(font
@@ -3777,7 +3777,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/eb105004-087f-4ea7-8291-809b214299af"
-					(reference "#PWR0269")
+					(reference "#PWR0284")
 					(unit 1)
 				)
 			)
@@ -3830,7 +3830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMA Connector, Through-Hole, Horizontal"
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 35.56 111.76 0)
 			(effects
 				(font
@@ -3882,7 +3882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bebeef49-95be-4a83-b747-2cf7881d2378")
-		(property "Reference" "#PWR0272"
+		(property "Reference" "#PWR0287"
 			(at 91.44 45.72 0)
 			(effects
 				(font
@@ -3932,7 +3932,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/eb105004-087f-4ea7-8291-809b214299af"
-					(reference "#PWR0272")
+					(reference "#PWR0287")
 					(unit 1)
 				)
 			)
@@ -3948,7 +3948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c60f7277-15b3-4c6c-ab20-a80a274170f7")
-		(property "Reference" "#PWR0263"
+		(property "Reference" "#PWR0278"
 			(at 25.4 69.85 0)
 			(effects
 				(font
@@ -3983,7 +3983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CHASSIS GROUND"
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
 			(at 25.4 64.77 0)
 			(effects
 				(font
@@ -3998,7 +3998,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/eb105004-087f-4ea7-8291-809b214299af"
-					(reference "#PWR0263")
+					(reference "#PWR0278")
 					(unit 1)
 				)
 			)
@@ -4013,7 +4013,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c71dc1eb-f3d9-4057-8b0f-106ddc73b198")
-		(property "Reference" "R82"
+		(property "Reference" "R88"
 			(at 229.87 109.474 90)
 			(effects
 				(font
@@ -4083,7 +4083,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/eb105004-087f-4ea7-8291-809b214299af"
-					(reference "R82")
+					(reference "R88")
 					(unit 1)
 				)
 			)
@@ -4098,7 +4098,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cadd1adb-ebfb-4250-9824-8a78f3330b94")
-		(property "Reference" "R85"
+		(property "Reference" "R91"
 			(at 229.87 139.954 90)
 			(effects
 				(font
@@ -4168,7 +4168,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/eb105004-087f-4ea7-8291-809b214299af"
-					(reference "R85")
+					(reference "R91")
 					(unit 1)
 				)
 			)
@@ -4184,7 +4184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1703fd5-0ce2-40dd-ba1d-2c1e34b3490f")
-		(property "Reference" "#PWR0264"
+		(property "Reference" "#PWR0279"
 			(at 33.02 71.12 0)
 			(effects
 				(font
@@ -4234,7 +4234,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/eb105004-087f-4ea7-8291-809b214299af"
-					(reference "#PWR0264")
+					(reference "#PWR0279")
 					(unit 1)
 				)
 			)
@@ -4249,7 +4249,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d25451ea-2f6d-4fb3-992f-1bbd1358baf1")
-		(property "Reference" "R86"
+		(property "Reference" "R92"
 			(at 229.87 147.574 90)
 			(effects
 				(font
@@ -4319,7 +4319,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/eb105004-087f-4ea7-8291-809b214299af"
-					(reference "R86")
+					(reference "R92")
 					(unit 1)
 				)
 			)
@@ -4334,7 +4334,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db9c65c5-19d1-402c-96f5-3f018bca4a05")
-		(property "Reference" "R87"
+		(property "Reference" "R93"
 			(at 229.87 157.734 90)
 			(effects
 				(font
@@ -4404,7 +4404,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/eb105004-087f-4ea7-8291-809b214299af"
-					(reference "R87")
+					(reference "R93")
 					(unit 1)
 				)
 			)
@@ -4419,7 +4419,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e06cde82-8dce-4a43-9508-670f1d450ed7")
-		(property "Reference" "R81"
+		(property "Reference" "R87"
 			(at 229.87 101.854 90)
 			(effects
 				(font
@@ -4489,7 +4489,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/eb105004-087f-4ea7-8291-809b214299af"
-					(reference "R81")
+					(reference "R87")
 					(unit 1)
 				)
 			)
@@ -4505,7 +4505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3aa7891-239d-4c69-9b74-9aab702c3659")
-		(property "Reference" "#PWR0270"
+		(property "Reference" "#PWR0285"
 			(at 55.88 29.21 0)
 			(effects
 				(font
@@ -4555,7 +4555,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/eb105004-087f-4ea7-8291-809b214299af"
-					(reference "#PWR0270")
+					(reference "#PWR0285")
 					(unit 1)
 				)
 			)
@@ -4571,7 +4571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6975b37-ff93-47ce-94ae-2e2df9337a52")
-		(property "Reference" "R79"
+		(property "Reference" "R85"
 			(at 85.09 35.5599 0)
 			(effects
 				(font
@@ -4643,7 +4643,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/eb105004-087f-4ea7-8291-809b214299af"
-					(reference "R79")
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -4660,7 +4660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8ce4718-b527-4e20-9d27-998d0b8c1ac5")
-		(property "Reference" "#PWR0265"
+		(property "Reference" "#PWR0280"
 			(at 35.56 97.79 0)
 			(effects
 				(font
@@ -4695,7 +4695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CHASSIS GROUND"
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
 			(at 35.56 92.71 0)
 			(effects
 				(font
@@ -4710,7 +4710,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/eb105004-087f-4ea7-8291-809b214299af"
-					(reference "#PWR0265")
+					(reference "#PWR0280")
 					(unit 1)
 				)
 			)
@@ -4725,7 +4725,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fcf91b15-1ee9-4568-b905-b1b2e68e92b7")
-		(property "Reference" "R84"
+		(property "Reference" "R90"
 			(at 229.87 128.524 90)
 			(effects
 				(font
@@ -4795,7 +4795,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/eb105004-087f-4ea7-8291-809b214299af"
-					(reference "R84")
+					(reference "R90")
 					(unit 1)
 				)
 			)

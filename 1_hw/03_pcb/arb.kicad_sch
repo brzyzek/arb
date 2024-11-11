@@ -370,6 +370,26 @@
 		)
 		(uuid "b63e84f1-4249-470d-b1a6-86f148673620")
 	)
+	(text_box "12"
+		(exclude_from_sim no)
+		(at 165.1 119.38 0)
+		(size 19.05 3.81)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 72 72 1)
+			)
+		)
+		(uuid "c120278d-6f88-45ff-905d-b57bee88229d")
+	)
 	(text_box "0.0.1"
 		(exclude_from_sim no)
 		(at 189.23 22.86 0)
@@ -539,7 +559,7 @@
 		)
 	)
 	(sheet
-		(at 109.22 104.14)
+		(at 109.22 107.95)
 		(size 55.88 3.81)
 		(stroke
 			(width 0.1524)
@@ -551,7 +571,7 @@
 		)
 		(uuid "15631b2d-3708-4ae8-a4e9-7f8a7b587733")
 		(property "Sheetname" "ANALOG - STAGE 1"
-			(at 110.236 106.172 0)
+			(at 110.236 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -560,7 +580,7 @@
 			)
 		)
 		(property "Sheetfile" "analog1.kicad_sch"
-			(at 109.22 108.5346 0)
+			(at 109.22 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -572,7 +592,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
-					(page "8")
+					(page "9")
 				)
 			)
 		)
@@ -617,6 +637,45 @@
 		)
 	)
 	(sheet
+		(at 109.22 96.52)
+		(size 55.88 3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3eaf535e-ef91-4de7-bf25-42486b2f88fe")
+		(property "Sheetname" "FLASH"
+			(at 110.236 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "flash.kicad_sch"
+			(at 109.22 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "arb"
+				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 109.22 85.09)
 		(size 55.88 3.81)
 		(stroke
@@ -656,7 +715,7 @@
 		)
 	)
 	(sheet
-		(at 109.22 96.52)
+		(at 109.22 100.33)
 		(size 55.88 3.81)
 		(stroke
 			(width 0.1524)
@@ -668,7 +727,7 @@
 		)
 		(uuid "671babe9-63c4-471b-b226-781a2641e7ad")
 		(property "Sheetname" "FTDI"
-			(at 110.236 98.552 0)
+			(at 110.236 102.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -677,7 +736,7 @@
 			)
 		)
 		(property "Sheetfile" "ftdi.kicad_sch"
-			(at 109.22 100.9146 0)
+			(at 109.22 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -695,7 +754,7 @@
 		)
 	)
 	(sheet
-		(at 109.22 100.33)
+		(at 109.22 104.14)
 		(size 55.88 3.81)
 		(stroke
 			(width 0.1524)
@@ -707,7 +766,7 @@
 		)
 		(uuid "7126ceca-2dec-4994-855f-f217c0acdc71")
 		(property "Sheetname" "DAC"
-			(at 110.236 102.362 0)
+			(at 110.236 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -716,7 +775,7 @@
 			)
 		)
 		(property "Sheetfile" "dac.kicad_sch"
-			(at 109.22 104.7246 0)
+			(at 109.22 108.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -728,7 +787,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
-					(page "7")
+					(page "8")
 				)
 			)
 		)
@@ -773,7 +832,7 @@
 		)
 	)
 	(sheet
-		(at 109.22 111.76)
+		(at 109.22 115.57)
 		(size 55.88 3.81)
 		(stroke
 			(width 0.1524)
@@ -785,7 +844,7 @@
 		)
 		(uuid "dd20ed2c-105a-40ef-bdba-a4198899f68e")
 		(property "Sheetname" "ANALOG - DC OFFSET"
-			(at 110.236 113.792 0)
+			(at 110.236 117.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -794,6 +853,45 @@
 			)
 		)
 		(property "Sheetfile" "analogdc.kicad_sch"
+			(at 109.22 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "arb"
+				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 111.76)
+		(size 55.88 3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e46c6640-71a3-4b78-b602-0f6be9676e36")
+		(property "Sheetname" "ANALOG - STAGE 2"
+			(at 110.236 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "analog2.kicad_sch"
 			(at 109.22 116.1546 0)
 			(effects
 				(font
@@ -812,46 +910,7 @@
 		)
 	)
 	(sheet
-		(at 109.22 107.95)
-		(size 55.88 3.81)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "e46c6640-71a3-4b78-b602-0f6be9676e36")
-		(property "Sheetname" "ANALOG - STAGE 2"
-			(at 110.236 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Sheetfile" "analog2.kicad_sch"
-			(at 109.22 112.3446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "arb"
-				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 109.22 115.57)
+		(at 109.22 119.38)
 		(size 55.88 3.81)
 		(stroke
 			(width 0.1524)
@@ -863,7 +922,7 @@
 		)
 		(uuid "eb105004-087f-4ea7-8291-809b214299af")
 		(property "Sheetname" "CONNECTORS"
-			(at 110.236 117.602 0)
+			(at 110.236 121.412 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -872,7 +931,7 @@
 			)
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
-			(at 109.22 119.9646 0)
+			(at 109.22 123.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -884,7 +943,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50"
-					(page "11")
+					(page "12")
 				)
 			)
 		)

@@ -1,4 +1,4 @@
-23686710126708258
+23691903982380338
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -27,6 +27,27 @@ SMA THT Female Jack Horizontal
 0
 5
 2
+BRZK_DIODE
+D_SMP_DO-216AA
+SMP DO-216AA
+SMP DO-216AA
+0
+2
+2
+BRZK_SW
+SW_SPST_BUTTON_TS-1187A-B-A-B
+12V 5.1mm 1.5mm Round Button Standing paste SPST SMD Tactile Switches ROHS 
+SPST Button Switch
+0
+4
+4
+BRZK_SW
+SW_TH_Slide_SPDT_Straight_SS-12D02-VG4
+Direct Insert Single Pole Double Throw (SPDT)
+switch SPDT
+0
+5
+3
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
