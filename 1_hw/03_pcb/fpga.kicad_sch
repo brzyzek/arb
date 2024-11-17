@@ -2599,17 +2599,6 @@
 		)
 		(uuid "fc3f415c-ebca-4e1c-8b8c-491d662e2712")
 	)
-	(text "TB: GO THROUGH HW CHECKLIST!"
-		(exclude_from_sim no)
-		(at 167.64 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "9548f4a5-2899-4793-8314-d13f8e11ddc8")
-	)
 	(global_label "GPIO_LED1_FPGA_LED_OD"
 		(shape input)
 		(at 128.27 198.12 180)
