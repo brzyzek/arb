@@ -1,4 +1,4 @@
-23691903982380338
+23691905045291348
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -47,7 +47,7 @@ Direct Insert Single Pole Double Throw (SPDT)
 switch SPDT
 0
 5
-3
+5
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
