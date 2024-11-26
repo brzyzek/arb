@@ -1,4 +1,4 @@
-23691905045291348
+23693637695816115
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -31,6 +31,13 @@ BRZK_DIODE
 D_SMP_DO-216AA
 SMP DO-216AA
 SMP DO-216AA
+0
+2
+2
+BRZK_INDUCTOR
+L_SMD_L2.5_W2.0_Metric
+Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+inductor
 0
 2
 2

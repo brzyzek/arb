@@ -6405,7 +6405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "BRZK_INDUCTOR:L_SMD_L2.5_W2.0_Metric"
 			(at 138.43 116.84 0)
 			(effects
 				(font
@@ -6432,7 +6432,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C114862"
+		(property "LCSC" "     C5832360"
 			(at 138.43 116.84 0)
 			(effects
 				(font
@@ -6441,7 +6441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "LQM18PN4R7MFRL"
+		(property "Part Number" "FTC252010S4R7MBCA"
 			(at 138.43 116.84 0)
 			(effects
 				(font

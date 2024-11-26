@@ -3,4 +3,5 @@
   (lib (name "BRZK_CONN_COAX")(type "KiCad")(uri "${BRZK_FOOTPRINT_DIR}/BRZK_CONN_COAX.pretty")(options "")(descr "Coaxial Connector Footprints"))
   (lib (name "BRZK_SW")(type "KiCad")(uri "${BRZK_FOOTPRINT_DIR}/BRZK_SW.pretty")(options "")(descr ""))
   (lib (name "BRZK_DIODE")(type "KiCad")(uri "${BRZK_FOOTPRINT_DIR}/BRZK_DIODE.pretty")(options "")(descr ""))
+  (lib (name "BRZK_INDUCTOR")(type "KiCad")(uri "${BRZK_FOOTPRINT_DIR}/BRZK_INDUCTOR.pretty")(options "")(descr ""))
 )
