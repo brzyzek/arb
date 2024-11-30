@@ -4668,6 +4668,10 @@
 		(uuid "0d840898-adfa-4dea-867d-c5152ba879b0")
 	)
 	(no_connect
+		(at 50.8 107.95)
+		(uuid "12a4c693-7b60-4835-b368-67da22cd3ed3")
+	)
+	(no_connect
 		(at 50.8 143.51)
 		(uuid "2093c938-526a-44b5-85fa-43be73d1c6ad")
 	)
@@ -4680,12 +4684,12 @@
 		(uuid "26105830-a884-4f17-9336-ca4b504fa80d")
 	)
 	(no_connect
-		(at 50.8 135.89)
-		(uuid "3aa5624d-af2d-4ca8-80f4-b546c83dbc42")
+		(at 50.8 110.49)
+		(uuid "30a10570-4ba5-4858-bd71-bcfe065ee1b2")
 	)
 	(no_connect
-		(at 50.8 67.31)
-		(uuid "3c0f986d-8d7e-4c11-be71-a76e8b4794da")
+		(at 50.8 135.89)
+		(uuid "3aa5624d-af2d-4ca8-80f4-b546c83dbc42")
 	)
 	(no_connect
 		(at 50.8 140.97)
@@ -4708,6 +4712,10 @@
 		(uuid "5c30df0e-18ca-481a-b5eb-5c7ee0953080")
 	)
 	(no_connect
+		(at 50.8 166.37)
+		(uuid "66fb89cf-efeb-4862-b922-d292afbba806")
+	)
+	(no_connect
 		(at 111.76 148.59)
 		(uuid "684a411b-42f4-42c7-895a-cbe5baf022a1")
 	)
@@ -4722,6 +4730,10 @@
 	(no_connect
 		(at 111.76 31.75)
 		(uuid "771d7b3f-c62e-49c3-8f9d-f59a15e1804d")
+	)
+	(no_connect
+		(at 50.8 105.41)
+		(uuid "77a07c31-4296-4978-b101-0bb74ddea24c")
 	)
 	(no_connect
 		(at 50.8 49.53)
@@ -4742,14 +4754,6 @@
 	(no_connect
 		(at 111.76 128.27)
 		(uuid "864ac763-e2c9-4fef-bd32-edf5d9ac075e")
-	)
-	(no_connect
-		(at 50.8 64.77)
-		(uuid "89980abf-0900-4b0a-ac0c-bd05feeaedc6")
-	)
-	(no_connect
-		(at 50.8 62.23)
-		(uuid "8a7ba3e6-5641-4a4b-add9-19f6900d4017")
 	)
 	(no_connect
 		(at 111.76 125.73)
@@ -4858,10 +4862,6 @@
 	(no_connect
 		(at 111.76 110.49)
 		(uuid "db6877e6-ca3f-46d2-8f05-98550ff8e6de")
-	)
-	(no_connect
-		(at 50.8 54.61)
-		(uuid "dba03bb2-cdf4-49d5-b1d8-18d41df9bc18")
 	)
 	(no_connect
 		(at 50.8 87.63)
@@ -6388,6 +6388,28 @@
 			)
 		)
 	)
+	(global_label "GPIO_AMP-PD_MCU_AMP2_3P3"
+		(shape input)
+		(at 50.8 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d54348d-57ac-4c8a-a2ef-89b26eab5742")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.7863 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO_FQ-UD_MCU_DDS_3P3"
 		(shape input)
 		(at 111.76 181.61 0)
@@ -6604,6 +6626,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_SEL0_MCU_AMUX3_3P3"
+		(shape input)
+		(at 50.8 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "56062af3-29c5-4260-9913-cf8dbd6c87ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.8426 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6828,28 +6872,6 @@
 			)
 		)
 	)
-	(global_label "GPIO_SEL0_MCU_AMUX3_3P3"
-		(shape input)
-		(at 50.8 110.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8ea42778-b872-45a2-9b8d-e16b5a0f4405")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.8426 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO_BOOT1_SW_MCU_3P3_L"
 		(shape input)
 		(at 116.84 77.47 0)
@@ -7048,6 +7070,28 @@
 			)
 		)
 	)
+	(global_label "GPIO_SEL1_MCU_AMUX3_3P3"
+		(shape input)
+		(at 50.8 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1d323c9-062d-4171-9d1b-a0c2fab44bcf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.8426 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO_CFG_DONE_FPGA_MCU_3P3"
 		(shape input)
 		(at 50.8 158.75 180)
@@ -7110,28 +7154,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_AMP-PD_MCU_AMP2_3P3"
-		(shape input)
-		(at 50.8 166.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cd9e49b6-8233-459b-81a2-bf25eb7654e4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.7863 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -7226,7 +7248,7 @@
 	)
 	(global_label "GPIO_EN_MCU_AMUX3_3P3"
 		(shape input)
-		(at 50.8 105.41 180)
+		(at 50.8 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7234,31 +7256,9 @@
 			)
 			(justify right)
 		)
-		(uuid "e1f86acf-2cc8-4213-bd7d-d3955bfae783")
+		(uuid "e0fc4d2e-d848-40a7-bbc4-0a01fc8674f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.9592 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_SEL1_MCU_AMUX3_3P3"
-		(shape input)
-		(at 50.8 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "eb2cd9ba-d970-4402-8770-90f6e72669c0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.8426 107.95 0)
+			(at 22.9592 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
