@@ -4,9 +4,7 @@
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [
-      "DP_100",
       "Default",
-      "SE_50",
       "SE_CLOCK_50"
     ],
     "hidden_nets": [
@@ -41,10 +39,6 @@
       "Net-(U14-OSCO)",
       "1P8V_D",
       "Net-(U18-REFIO)",
-      "ANALOG_FPGA-DAC_OUT_N",
-      "ANALOG_FPGA-DAC_OUT_P",
-      "ANALOG_DDS_OUT_P",
-      "ANALOG_DDS_OUT_N",
       "15P0V_A",
       "N15P0V_A",
       "Net-(D9-K)",
@@ -64,8 +58,6 @@
       "unconnected-(D9-NC-Pad2)",
       "Net-(D9-A)",
       "C_GND",
-      "USB_DATA_CONN_FTDI_N",
-      "USB_DATA_CONN_FTDI_P",
       "Net-(J1-CC1)",
       "unconnected-(J1-SBU2-PadB8)",
       "unconnected-(J1-SBU1-PadA8)",
