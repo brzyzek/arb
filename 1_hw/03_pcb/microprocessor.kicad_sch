@@ -4712,6 +4712,10 @@
 		(uuid "5c30df0e-18ca-481a-b5eb-5c7ee0953080")
 	)
 	(no_connect
+		(at 111.76 29.21)
+		(uuid "66d01d4f-32f3-4634-9255-00df6f7cda36")
+	)
+	(no_connect
 		(at 50.8 166.37)
 		(uuid "66fb89cf-efeb-4862-b922-d292afbba806")
 	)
@@ -4830,10 +4834,6 @@
 	(no_connect
 		(at 50.8 57.15)
 		(uuid "c0b6400d-ccd4-48f4-bcd2-0b2cef2f4eb2")
-	)
-	(no_connect
-		(at 111.76 44.45)
-		(uuid "c35d670d-377a-4b74-9cf6-b0286367877f")
 	)
 	(no_connect
 		(at 111.76 186.69)
@@ -6718,28 +6718,6 @@
 			)
 		)
 	)
-	(global_label "ANALOG_CAL-ADC_AMUX2_MCU"
-		(shape input)
-		(at 111.76 29.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "62e994f5-9d54-4355-ba37-904bb4fdc52a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.7134 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO_D1_MCU_DDS_3P3"
 		(shape input)
 		(at 111.76 161.29 0)
@@ -7264,6 +7242,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ANALOG_CAL-ADC_AMUX2_MCU"
+		(shape input)
+		(at 111.76 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7f39006-dfec-468a-9a5d-66fb6472f051")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.7134 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
