@@ -4852,10 +4852,6 @@
 		(uuid "c7fd8aa2-2b84-45b8-82e0-a32e4282ab41")
 	)
 	(no_connect
-		(at 111.76 105.41)
-		(uuid "caf446b3-25f8-4c6b-8ee2-24ba7ba3ee3f")
-	)
-	(no_connect
 		(at 111.76 130.81)
 		(uuid "d274dd97-fef6-44f7-baf1-7136e16f062e")
 	)
@@ -6174,7 +6170,7 @@
 	)
 	(global_label "SPI_SCLK_MCU_FPGA_3P3"
 		(shape input)
-		(at 154.94 104.14 0)
+		(at 111.76 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6184,7 +6180,7 @@
 		)
 		(uuid "013bd30e-1a90-4f36-a68a-ad13407fe0a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.1156 104.14 0)
+			(at 138.9356 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6278,28 +6274,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI_CS_MCU_FLASH_3P3_L"
-		(shape input)
-		(at 111.76 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "10ede9ce-425e-4d80-9b4c-88a598fbc416")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.6613 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6920,6 +6894,28 @@
 			)
 		)
 	)
+	(global_label "SPI_CS_MCU_FPGA_3P3_L"
+		(shape input)
+		(at 149.86 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b2fc8dd-460c-4f25-a6b0-4d3241a5188c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.7332 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO_D7_MCU_DDS_3P3"
 		(shape input)
 		(at 111.76 176.53 0)
@@ -7184,9 +7180,9 @@
 			)
 		)
 	)
-	(global_label "SPI_CS_MCU_FPGA_3P3_L"
+	(global_label "SPI_CS_MCU_FLASH_3P3_L"
 		(shape input)
-		(at 111.76 115.57 0)
+		(at 149.86 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7194,9 +7190,9 @@
 			)
 			(justify left)
 		)
-		(uuid "ddd2b7d4-9676-47aa-a9d1-17bf4eadb1eb")
+		(uuid "d80abed6-bceb-41ac-9166-f72b192a993e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.6332 115.57 0)
+			(at 177.7613 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11395,6 +11391,7 @@
 	(symbol
 		(lib_id "BRZK_STM32:STM32F446ZETx")
 		(at 81.28 115.57 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11402,7 +11399,7 @@
 		(dnp no)
 		(uuid "b10d052b-e2c5-459a-a816-b0ada1b8fc2a")
 		(property "Reference" "U11"
-			(at 53.34 20.32 0)
+			(at 109.22 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11410,7 +11407,7 @@
 			)
 		)
 		(property "Value" "STM32F446ZETx"
-			(at 53.34 22.86 0)
+			(at 109.22 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11418,7 +11415,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-144_20x20mm_P0.5mm"
-			(at 55.88 201.93 0)
+			(at 106.68 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
