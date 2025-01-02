@@ -3139,13 +3139,13 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 78.74 100.33 90)
+		(at 78.74 100.33 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7f86c022-e303-45a3-84d6-b721982033c4")
 		(property "Reference" "R82"
 			(at 78.74 93.98 90)
