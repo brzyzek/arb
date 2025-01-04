@@ -2008,44 +2008,12 @@
 		(uuid "2aface49-0471-41d8-9f3a-b28d3f1e78ee")
 	)
 	(no_connect
-		(at 180.34 71.12)
-		(uuid "3d211ae8-335a-4039-8609-9748943aa6d6")
-	)
-	(no_connect
-		(at 180.34 86.36)
-		(uuid "584c1a93-363a-4a75-957b-211bc5df9b1c")
-	)
-	(no_connect
 		(at 96.52 152.4)
 		(uuid "84860218-7720-42ff-b699-da8d7220876b")
 	)
 	(no_connect
-		(at 180.34 83.82)
-		(uuid "9ecb53e4-af23-4ac4-8d83-b7456cef16e8")
-	)
-	(no_connect
-		(at 180.34 68.58)
-		(uuid "abe17f49-64b2-4488-bde7-fbd86ec1f297")
-	)
-	(no_connect
-		(at 180.34 76.2)
-		(uuid "c7a7b54b-3fc5-4bc0-8943-a742fa06f6ef")
-	)
-	(no_connect
 		(at 96.52 149.86)
 		(uuid "d90a3eaa-d58c-4689-8336-b9c2dca21f21")
-	)
-	(no_connect
-		(at 180.34 73.66)
-		(uuid "eb427eb2-4e98-49a8-bf91-e44cb9984f94")
-	)
-	(no_connect
-		(at 180.34 78.74)
-		(uuid "f2a4c1bd-2ba2-4188-b3a1-952717a387ec")
-	)
-	(no_connect
-		(at 180.34 81.28)
-		(uuid "fd49f2c1-e4c5-4e2d-847e-93cf7985af24")
 	)
 	(wire
 		(pts
@@ -2609,6 +2577,28 @@
 			)
 		)
 	)
+	(global_label "GPIO_DACB9_FPGA_DAC_3P3"
+		(shape input)
+		(at 180.34 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c8b473f-0dce-49db-a495-350ad3a3ea94")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.8662 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO_CLK_EN_MCU_FPGA_3P3"
 		(shape input)
 		(at 92.71 67.31 0)
@@ -2666,28 +2656,6 @@
 		(uuid "1cabff2e-4a61-463e-8f84-cce19e283e9d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 122.1838 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_DACB8_FPGA_DAC_3P3"
-		(shape input)
-		(at 96.52 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "22125efb-3e20-4658-aa21-3be2e868c298")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.9938 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2763,46 +2731,24 @@
 			)
 		)
 	)
-	(global_label "GPIO_DACB12_FPGA_DAC_3P3"
+	(global_label "GPIO_DACB10_FPGA_DAC_3P3"
 		(shape input)
-		(at 96.52 139.7 0)
+		(at 180.34 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "3fce8d6d-235a-4d7d-b51b-0dbea3c30b62")
+		(uuid "3efac47a-95d0-4746-bcaf-944abaf84cdc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.2033 139.7 0)
+			(at 149.6567 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_DACB13_FPGA_DAC_3P3"
-		(shape input)
-		(at 96.52 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4ae6bac0-ed7a-4204-928f-7a60730e23f5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.2033 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2831,22 +2777,22 @@
 	)
 	(global_label "GPIO_DACB11_FPGA_DAC_3P3"
 		(shape input)
-		(at 96.52 132.08 0)
+		(at 180.34 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "5569b2da-ac38-4e9c-b08b-e8616d9581cc")
+		(uuid "4f8ffd0b-9312-4729-b748-22a633d11ae1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.2033 132.08 0)
+			(at 149.6567 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2891,6 +2837,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_DACB12_FPGA_DAC_3P3"
+		(shape input)
+		(at 180.34 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a40eaff-03bf-46fc-979d-e7fedad3bbca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.6567 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3005,9 +2973,9 @@
 			)
 		)
 	)
-	(global_label "GPIO_DACB9_FPGA_DAC_3P3"
+	(global_label "GPIO_DACB8_FPGA_DAC_3P3"
 		(shape input)
-		(at 96.52 134.62 0)
+		(at 92.71 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3015,9 +2983,9 @@
 			)
 			(justify left)
 		)
-		(uuid "85573b46-1a0a-44d8-9460-0e0acf2595bb")
+		(uuid "8bd270b0-6508-49a2-98e1-9f8a88267010")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.9938 134.62 0)
+			(at 122.1838 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3027,24 +2995,24 @@
 			)
 		)
 	)
-	(global_label "GPIO_DACB10_FPGA_DAC_3P3"
+	(global_label "GPIO_DACB13_FPGA_DAC_3P3"
 		(shape input)
-		(at 96.52 137.16 0)
+		(at 180.34 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "867b161f-ebcd-4899-b3a9-cf67c4f6e90b")
+		(uuid "96108f32-e2ed-4432-8a4f-09d1077a6f04")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.2033 137.16 0)
+			(at 149.6567 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
