@@ -6443,7 +6443,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C11"
-			(at -2.5 0 360)
+			(at -2.5 0 0)
 			(layer "F.SilkS")
 			(uuid "40793668-ccb5-4fd0-bca9-398ce276405c")
 			(effects
@@ -12484,7 +12484,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C13"
-			(at -2.5 0 360)
+			(at -2.5 0 0)
 			(layer "F.SilkS")
 			(uuid "fe32fb6f-76c8-4443-8159-2c0e38290543")
 			(effects
@@ -30617,7 +30617,7 @@
 			)
 		)
 		(property ki_fp_filters "QFN*1EP*7x7mm*P0.5mm*")
-		(path "/13f127a8-adf3-43db-9fea-9a9f154787f6/34907880-be0b-4113-8039-65af92fce4e7")
+		(path "/13f127a8-adf3-43db-9fea-9a9f154787f6/7f6e2959-acd2-4585-8e12-1ea93b78134b")
 		(sheetname "FPGA")
 		(sheetfile "fpga.kicad_sch")
 		(attr smd)
@@ -30943,7 +30943,7 @@
 			(roundrect_rratio 0.25)
 			(net 224 "unconnected-(U12C-IOB_6a-Pad2)")
 			(pinfunction "IOB_6a")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "9fdae8d1-07b1-4e7f-beac-ddb5898f664d")
 		)
 		(pad "3" smd roundrect
@@ -30953,7 +30953,7 @@
 			(roundrect_rratio 0.25)
 			(net 217 "unconnected-(U12C-IOB_9b-Pad3)")
 			(pinfunction "IOB_9b")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "3630fec7-7f70-4a9d-a96a-962ad6624d66")
 		)
 		(pad "4" smd roundrect
@@ -30963,7 +30963,7 @@
 			(roundrect_rratio 0.25)
 			(net 209 "unconnected-(U12C-IOB_8a-Pad4)")
 			(pinfunction "IOB_8a")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "83d3da9c-0bf0-4f07-96d5-f6d340b48133")
 		)
 		(pad "5" smd roundrect
@@ -30983,7 +30983,7 @@
 			(roundrect_rratio 0.25)
 			(net 208 "unconnected-(U12B-IOB_13b-Pad6)")
 			(pinfunction "IOB_13b")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "3f435b67-7493-4ca1-9962-bf7d63dc90a7")
 		)
 		(pad "7" smd roundrect
@@ -31013,7 +31013,7 @@
 			(roundrect_rratio 0.25)
 			(net 323 "unconnected-(U12B-IOB_16a-Pad9)")
 			(pinfunction "IOB_16a")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "7e90ec68-d202-4d82-92af-ef2ce86eb658")
 		)
 		(pad "10" smd roundrect
@@ -31023,7 +31023,7 @@
 			(roundrect_rratio 0.25)
 			(net 324 "unconnected-(U12B-IOB_18a-Pad10)")
 			(pinfunction "IOB_18a")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "be35d5f6-f97e-4804-a5e6-e6a25230486d")
 		)
 		(pad "11" smd roundrect
@@ -31033,7 +31033,7 @@
 			(roundrect_rratio 0.25)
 			(net 322 "unconnected-(U12B-IOB_20a-Pad11)")
 			(pinfunction "IOB_20a")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "5edb0035-43ea-4006-a41d-fde3ecf5a11a")
 		)
 		(pad "12" smd roundrect
@@ -31043,7 +31043,7 @@
 			(roundrect_rratio 0.25)
 			(net 326 "unconnected-(U12B-IOB_22a-Pad12)")
 			(pinfunction "IOB_22a")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "c429da05-f6b0-42be-b820-d0e1f60becc5")
 		)
 		(pad "13" smd roundrect
@@ -31133,7 +31133,7 @@
 			(roundrect_rratio 0.25)
 			(net 325 "unconnected-(U12B-IOB_23b-Pad21)")
 			(pinfunction "IOB_23b")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "bf056675-e2c8-4c27-8298-e28144f16c2e")
 		)
 		(pad "22" smd roundrect
@@ -31153,7 +31153,7 @@
 			(roundrect_rratio 0.25)
 			(net 321 "unconnected-(U12A-IOT_37a-Pad23)")
 			(pinfunction "IOT_37a")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "e541c9c5-778e-4aba-aea8-0e25fe20b381")
 		)
 		(pad "24" smd roundrect
@@ -39874,7 +39874,7 @@
 			(roundrect_rratio 0.25)
 			(net 318 "unconnected-(U11-PF0-Pad10)")
 			(pinfunction "PF0")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "44b86b80-6674-484e-a109-3a7317decc10")
 		)
 		(pad "11" smd roundrect
@@ -39884,7 +39884,7 @@
 			(roundrect_rratio 0.25)
 			(net 317 "unconnected-(U11-PF1-Pad11)")
 			(pinfunction "PF1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "3fec89fe-e8d9-44f6-8e1c-457a7bf8eae8")
 		)
 		(pad "12" smd roundrect
@@ -39894,7 +39894,7 @@
 			(roundrect_rratio 0.25)
 			(net 316 "unconnected-(U11-PF2-Pad12)")
 			(pinfunction "PF2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "3040f8a2-f3be-426b-86d0-bbdf785dc09d")
 		)
 		(pad "13" smd roundrect
@@ -40374,7 +40374,7 @@
 			(roundrect_rratio 0.25)
 			(net 315 "unconnected-(U11-PE9-Pad60)")
 			(pinfunction "PE9")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "7874278d-b70d-497e-b417-b035d7ef501b")
 		)
 		(pad "61" smd roundrect
@@ -40414,7 +40414,7 @@
 			(roundrect_rratio 0.25)
 			(net 313 "unconnected-(U11-PE11-Pad64)")
 			(pinfunction "PE11")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "ac029d39-8723-4ea8-ad79-bdb5ddfc3583")
 		)
 		(pad "65" smd roundrect
@@ -40424,7 +40424,7 @@
 			(roundrect_rratio 0.25)
 			(net 312 "unconnected-(U11-PE12-Pad65)")
 			(pinfunction "PE12")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "61b4db97-a6d2-4901-8a06-ea3122498f0e")
 		)
 		(pad "66" smd roundrect
@@ -40454,7 +40454,7 @@
 			(roundrect_rratio 0.25)
 			(net 314 "unconnected-(U11-PE15-Pad68)")
 			(pinfunction "PE15")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "d7529032-eb09-4675-898f-6af72abfa5fd")
 		)
 		(pad "69" smd roundrect
@@ -40734,7 +40734,7 @@
 			(roundrect_rratio 0.25)
 			(net 319 "unconnected-(U11-PC6-Pad96)")
 			(pinfunction "PC6")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "3b721dd4-07c1-4adb-825d-83a0dead9960")
 		)
 		(pad "97" smd roundrect
@@ -40914,7 +40914,7 @@
 			(roundrect_rratio 0.25)
 			(net 295 "unconnected-(U11-PD0-Pad114)")
 			(pinfunction "PD0")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "f948dd85-bcc9-4261-9531-90d8dc025e95")
 		)
 		(pad "115" smd roundrect
@@ -40924,7 +40924,7 @@
 			(roundrect_rratio 0.25)
 			(net 289 "unconnected-(U11-PD1-Pad115)")
 			(pinfunction "PD1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "669e594a-2edc-4777-a4ac-be1b9b911dc9")
 		)
 		(pad "116" smd roundrect
@@ -40934,7 +40934,7 @@
 			(roundrect_rratio 0.25)
 			(net 294 "unconnected-(U11-PD2-Pad116)")
 			(pinfunction "PD2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "e7be79d7-9791-401a-93e4-2440786a910c")
 		)
 		(pad "117" smd roundrect
@@ -40944,7 +40944,7 @@
 			(roundrect_rratio 0.25)
 			(net 291 "unconnected-(U11-PD3-Pad117)")
 			(pinfunction "PD3")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "a458743d-fc6a-47e3-bfac-7ee1c3e023cc")
 		)
 		(pad "118" smd roundrect
@@ -40954,7 +40954,7 @@
 			(roundrect_rratio 0.25)
 			(net 293 "unconnected-(U11-PD4-Pad118)")
 			(pinfunction "PD4")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "c915619c-298a-4143-b2fe-7edc55686230")
 		)
 		(pad "119" smd roundrect
@@ -40964,7 +40964,7 @@
 			(roundrect_rratio 0.25)
 			(net 290 "unconnected-(U11-PD5-Pad119)")
 			(pinfunction "PD5")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "7bf73b13-3178-4401-be72-aab4fdd429f1")
 		)
 		(pad "120" smd roundrect
@@ -40994,7 +40994,7 @@
 			(roundrect_rratio 0.25)
 			(net 288 "unconnected-(U11-PD6-Pad122)")
 			(pinfunction "PD6")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "54047824-b36c-422f-b8da-2bcd8faa5962")
 		)
 		(pad "123" smd roundrect
@@ -41004,7 +41004,7 @@
 			(roundrect_rratio 0.25)
 			(net 292 "unconnected-(U11-PD7-Pad123)")
 			(pinfunction "PD7")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "bfc58639-7600-42dc-b4c0-cda902310e67")
 		)
 		(pad "124" smd roundrect
@@ -52126,7 +52126,7 @@
 		(descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U5"
-			(at 0 -2.4 360)
+			(at 0 -2.4 0)
 			(layer "F.SilkS")
 			(uuid "071e0071-5dbd-4adf-a381-f5865dcb036c")
 			(effects
@@ -52137,7 +52137,7 @@
 			)
 		)
 		(property "Value" "TLV70312DBV"
-			(at 0 2.4 360)
+			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "e8ff9db8-cc9f-4d1b-b9d1-70b8b1edef35")
 			(effects
@@ -52360,7 +52360,7 @@
 			(uuid "8a695478-8064-491f-b28c-8e2be2cfc5ff")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "55db217b-c6b3-432c-a103-4312761a6a1b")
 			(effects
