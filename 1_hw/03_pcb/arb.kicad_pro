@@ -548,6 +548,10 @@
       {
         "netclass": "DP_100",
         "pattern": "*_N"
+      },
+      {
+        "netclass": "SE_50",
+        "pattern": "ANALOG_*"
       }
     ]
   },
