@@ -3889,16 +3889,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 194.31) (xy 132.08 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "459b6e8a-3287-4cd2-b1ba-489fad4ad96d")
-	)
-	(wire
-		(pts
 			(xy 181.61 105.41) (xy 175.26 105.41)
 		)
 		(stroke
@@ -4246,26 +4236,6 @@
 			(type default)
 		)
 		(uuid "71d447c5-ffda-4dc9-b34c-086992d438c3")
-	)
-	(wire
-		(pts
-			(xy 132.08 193.04) (xy 138.43 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73d03d3c-4434-4751-ab11-f97b4a1d9462")
-	)
-	(wire
-		(pts
-			(xy 143.51 193.04) (xy 149.86 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76b5f01f-4741-4832-838f-f4d7bbf66b01")
 	)
 	(wire
 		(pts
@@ -4859,16 +4829,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 193.04) (xy 149.86 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "debe32f4-fd9c-4981-be3a-878372136bbf")
-	)
-	(wire
-		(pts
 			(xy 138.43 129.54) (xy 146.05 129.54)
 		)
 		(stroke
@@ -5236,16 +5196,6 @@
 			)
 		)
 		(uuid "0b02fdb6-05be-45ea-979a-464cf7d4ee8d")
-	)
-	(text "BLEED RESISTOR"
-		(exclude_from_sim no)
-		(at 140.97 183.134 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "36f96818-0965-4aff-afb7-184532ae3ca1")
 	)
 	(text "+2.5V DIGITAL LDO REGULATOR"
 		(exclude_from_sim no)
@@ -7822,92 +7772,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 140.97 193.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ef7c63c-6cfa-4094-b395-c937bee43da4")
-		(property "Reference" "R6"
-			(at 140.97 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1M"
-			(at 140.97 189.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 140.97 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 140.97 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22935"
-			(at 140.97 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "0603WAF1004T5E"
-			(at 140.97 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "87f475d4-4b88-413b-9176-6aca1f36a038")
-		)
-		(pin "2"
-			(uuid "49e87054-e4dd-4e07-aea3-1843bd7a4c92")
-		)
-		(instances
-			(project "arb"
-				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/1bf072f1-a14e-405a-bc69-5714f3381f47"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 104.14 30.48 0)
 		(unit 1)
@@ -9261,72 +9125,6 @@
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/1bf072f1-a14e-405a-bc69-5714f3381f47"
 					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 132.08 194.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c1d04e9-8bc4-47fd-893f-1ca3253ba1ce")
-		(property "Reference" "#PWR048"
-			(at 132.08 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "C_GND"
-			(at 131.953 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 132.08 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9230f93f-1c3f-405d-bdd0-ed10aee56dbb")
-		)
-		(instances
-			(project "arb"
-				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/1bf072f1-a14e-405a-bc69-5714f3381f47"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -15650,72 +15448,6 @@
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/1bf072f1-a14e-405a-bc69-5714f3381f47"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 149.86 194.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f22ff083-80b0-43fa-bd74-b26344af0111")
-		(property "Reference" "#PWR050"
-			(at 149.86 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 149.86 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db05a4b9-7ab9-4708-bc56-93a869f8231a")
-		)
-		(instances
-			(project "arb"
-				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/1bf072f1-a14e-405a-bc69-5714f3381f47"
-					(reference "#PWR050")
 					(unit 1)
 				)
 			)
