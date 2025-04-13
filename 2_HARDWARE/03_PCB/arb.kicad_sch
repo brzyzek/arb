@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "866ef9be-3b01-4288-a6e0-a2357aa17e50")
 	(paper "A")
 	(title_block
@@ -11,10 +11,21 @@
 		(company "Tomasz Brzyzek")
 	)
 	(lib_symbols)
+	(text "NOTE: USED TO COPY & PASTE A BLANK HIERARCHAL SCHEMATIC SHEET."
+		(exclude_from_sim no)
+		(at 144.018 213.106 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f8e9d5cc-351a-4f23-b504-f75bb984b671")
+	)
 	(text_box "2"
 		(exclude_from_sim no)
 		(at 165.1 81.28 0)
 		(size 19.05 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type default)
@@ -35,6 +46,7 @@
 		(exclude_from_sim no)
 		(at 189.23 19.05 0)
 		(size 19.05 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type default)
@@ -58,6 +70,7 @@
 		(exclude_from_sim no)
 		(at 165.1 85.09 0)
 		(size 19.05 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type default)
@@ -78,6 +91,7 @@
 		(exclude_from_sim no)
 		(at 189.23 15.24 0)
 		(size 74.93 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type default)
@@ -101,6 +115,7 @@
 		(exclude_from_sim no)
 		(at 165.1 88.9 0)
 		(size 19.05 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type default)
@@ -121,6 +136,7 @@
 		(exclude_from_sim no)
 		(at 109.22 73.66 0)
 		(size 55.88 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type default)
@@ -144,6 +160,7 @@
 		(exclude_from_sim no)
 		(at 109.22 69.85 0)
 		(size 74.93 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type default)
@@ -167,6 +184,7 @@
 		(exclude_from_sim no)
 		(at 165.1 73.66 0)
 		(size 19.05 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type default)
@@ -190,6 +208,7 @@
 		(exclude_from_sim no)
 		(at 165.1 100.33 0)
 		(size 19.05 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type default)
@@ -210,6 +229,7 @@
 		(exclude_from_sim no)
 		(at 165.1 104.14 0)
 		(size 19.05 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type default)
@@ -230,6 +250,7 @@
 		(exclude_from_sim no)
 		(at 165.1 115.57 0)
 		(size 19.05 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type default)
@@ -250,6 +271,7 @@
 		(exclude_from_sim no)
 		(at 208.28 19.05 0)
 		(size 55.88 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type default)
@@ -273,6 +295,7 @@
 		(exclude_from_sim no)
 		(at 165.1 96.52 0)
 		(size 19.05 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type default)
@@ -293,6 +316,7 @@
 		(exclude_from_sim no)
 		(at 16.51 17.78 0)
 		(size 83.82 107.95)
+		(margins 0.9524 0.9524 0.9524 0.9524)
 		(stroke
 			(width -0.0001)
 			(type default)
@@ -312,6 +336,7 @@
 		(exclude_from_sim no)
 		(at 109.22 77.47 0)
 		(size 55.88 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type default)
@@ -333,6 +358,7 @@
 		(exclude_from_sim no)
 		(at 165.1 111.76 0)
 		(size 19.05 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type default)
@@ -353,6 +379,7 @@
 		(exclude_from_sim no)
 		(at 208.28 22.86 0)
 		(size 55.88 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type default)
@@ -374,6 +401,7 @@
 		(exclude_from_sim no)
 		(at 165.1 119.38 0)
 		(size 19.05 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type default)
@@ -394,6 +422,7 @@
 		(exclude_from_sim no)
 		(at 189.23 22.86 0)
 		(size 19.05 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type default)
@@ -414,6 +443,7 @@
 		(exclude_from_sim no)
 		(at 165.1 92.71 0)
 		(size 19.05 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type default)
@@ -434,6 +464,7 @@
 		(exclude_from_sim no)
 		(at 165.1 77.47 0)
 		(size 19.05 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type default)
@@ -454,6 +485,7 @@
 		(exclude_from_sim no)
 		(at 165.1 107.95 0)
 		(size 19.05 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type default)
@@ -470,19 +502,13 @@
 		)
 		(uuid "fff84930-5cb2-45df-bcb7-6c085ad336dc")
 	)
-	(text "NOTE: USED TO COPY & PASTE A BLANK HIERARCHAL SCHEMATIC SHEET."
-		(exclude_from_sim no)
-		(at 144.018 213.106 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f8e9d5cc-351a-4f23-b504-f75bb984b671")
-	)
 	(sheet
 		(at 109.22 88.9)
 		(size 55.88 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -522,6 +548,10 @@
 	(sheet
 		(at 109.22 92.71)
 		(size 55.88 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -561,6 +591,10 @@
 	(sheet
 		(at 109.22 107.95)
 		(size 55.88 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -600,6 +634,10 @@
 	(sheet
 		(at 109.22 81.28)
 		(size 55.88 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -639,6 +677,10 @@
 	(sheet
 		(at 109.22 96.52)
 		(size 55.88 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -678,6 +720,10 @@
 	(sheet
 		(at 109.22 85.09)
 		(size 55.88 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -717,6 +763,10 @@
 	(sheet
 		(at 109.22 100.33)
 		(size 55.88 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -756,6 +806,10 @@
 	(sheet
 		(at 109.22 104.14)
 		(size 55.88 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -795,6 +849,10 @@
 	(sheet
 		(at 109.22 214.63)
 		(size 55.88 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -834,6 +892,10 @@
 	(sheet
 		(at 109.22 115.57)
 		(size 55.88 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -873,6 +935,10 @@
 	(sheet
 		(at 109.22 111.76)
 		(size 55.88 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -912,6 +978,10 @@
 	(sheet
 		(at 109.22 119.38)
 		(size 55.88 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -953,4 +1023,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
