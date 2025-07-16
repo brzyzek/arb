@@ -6,8 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "ARBITRARY WAVEFORM GENERATOR")
-		(date "2024-09-11")
-		(rev "0.0.1")
+		(date "2025-07-15")
+		(rev "1.0.1")
 		(company "Tomasz Brzyzek")
 	)
 	(lib_symbols

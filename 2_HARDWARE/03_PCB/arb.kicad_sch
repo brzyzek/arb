@@ -6,8 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "ARBITRARY WAVEFORM GENERATOR")
-		(date "2024-09-11")
-		(rev "0.0.1")
+		(date "2025-07-15")
+		(rev "1.0.1")
 		(company "Tomasz Brzyzek")
 	)
 	(lib_symbols)
@@ -65,6 +65,28 @@
 			(justify left)
 		)
 		(uuid "055cb14a-0792-4ba2-a46f-215aebb4c809")
+	)
+	(text_box "NEW BOARD LAYOUT, DUAL SIDED"
+		(exclude_from_sim no)
+		(at 208.28 26.67 0)
+		(size 55.88 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 72 72 1)
+			)
+			(justify left)
+		)
+		(uuid "05688b44-62a5-4d96-bd8e-663c85c5ea7c")
 	)
 	(text_box "3"
 		(exclude_from_sim no)
@@ -155,6 +177,27 @@
 			(justify left)
 		)
 		(uuid "2658ae98-dd8c-459b-84d3-24d2a4cabc56")
+	)
+	(text_box "1.0.1"
+		(exclude_from_sim no)
+		(at 189.23 26.67 0)
+		(size 19.05 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 72 72 1)
+			)
+		)
+		(uuid "2750fd5f-11e7-4a38-bf77-e757fc297f4c")
 	)
 	(text_box "TABLE OF CONTENTS"
 		(exclude_from_sim no)
