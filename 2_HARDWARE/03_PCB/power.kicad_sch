@@ -8689,12 +8689,12 @@
 	(symbol
 		(lib_id "power:+3V3")
 		(at 259.08 83.82 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5217f501-83cb-45aa-b65b-a597cd77f4e7")
 		(property "Reference" "#PWR068"
 			(at 259.08 87.63 0)
