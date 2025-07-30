@@ -1,4 +1,4 @@
-25956370382771941
+25966760378397212
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +13,48 @@ audio belton reverb
 0
 7
 7
+BRZK_CONN_COAX
+BNC_TH_Horizontal_DOSIN-801-0050
+BNC dosinconn DOSIN-801-0050
+BNC RF interface bayonet 50ohm
+0
+5
+2
+BRZK_CONN_COAX
+SMA_TH_Horizontal_KH-SMA-K513-G
+Shenzhen Kinghelm Elec  KH-SMA-K513-G
+SMA THT Female Jack Horizontal
+0
+5
+2
+BRZK_DIODE
+D_SMP_DO-216AA
+SMP DO-216AA
+SMP DO-216AA
+0
+2
+2
+BRZK_INDUCTOR
+L_SMD_L2.5_W2.0_Metric
+Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+BRZK_SW
+SW_SPST_BUTTON_TS-1187A-B-A-B
+12V 5.1mm 1.5mm Round Button Standing paste SPST SMD Tactile Switches ROHS 
+SPST Button Switch
+0
+4
+4
+BRZK_SW
+SW_TH_Slide_SPDT_Straight_SS-12D02-VG4
+Direct Insert Single Pole Double Throw (SPDT)
+switch SPDT
+0
+5
+5
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
