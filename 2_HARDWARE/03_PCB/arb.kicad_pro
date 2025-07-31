@@ -60,7 +60,12 @@
         {
           "gap": 0.2032,
           "via_gap": 0.0,
-          "width": 0.220472
+          "width": 0.123952
+        },
+        {
+          "gap": 0.2032,
+          "via_gap": 0.0,
+          "width": 0.231902
         }
       ],
       "drc_exclusions": [],
@@ -194,9 +199,11 @@
       ],
       "track_widths": [
         0.0,
-        0.220472,
-        0.299974,
-        0.34925,
+        0.123952,
+        0.156464,
+        0.231902,
+        0.381,
+        0.537972,
         0.635
       ],
       "tuning_pattern_settings": {
@@ -485,72 +492,84 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.156464,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_drill": 0.3,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.156464,
         "via_diameter": 0.7,
         "via_drill": 0.35,
         "wire_width": 6
       },
       {
-        "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.231902,
         "diff_pair_gap": 0.2032,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.220472,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "DP_100",
+        "diff_pair_width": 0.231902,
+        "microvia_drill": 0.3,
+        "name": "DP_100_INNER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.0,
+        "track_width": 0.231902,
+        "via_diameter": 0.7,
+        "via_drill": 0.35
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.123952,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.123952,
+        "line_style": 0,
+        "name": "DP_100_OUTER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.123952,
         "via_diameter": 0.7,
         "via_drill": 0.35,
         "wire_width": 6
       },
       {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.0,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.0,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "SE_50",
+        "clearance": 0.537972,
+        "name": "SE_50_INNER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.34925,
+        "track_width": 0.537972,
+        "via_diameter": 0.7,
+        "via_drill": 0.35
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.156464,
+        "diff_pair_gap": 0.0,
+        "diff_pair_width": 0.0,
+        "line_style": 0,
+        "name": "SE_50_OUTER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.156464,
         "via_diameter": 0.7,
         "via_drill": 0.35,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.0,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.0,
+        "clearance": 0.469392,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
         "name": "SE_CLOCK_50",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.34925,
+        "track_width": 0.156464,
         "via_diameter": 0.7,
         "via_drill": 0.35,
         "wire_width": 6
@@ -563,20 +582,24 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
+        "netclass": "DP_100_OUTER",
+        "pattern": "*_N"
+      },
+      {
+        "netclass": "DP_100_OUTER",
+        "pattern": "*_P"
+      },
+      {
+        "netclass": "SE_50_OUTER",
+        "pattern": "ANALOG_*"
+      },
+      {
         "netclass": "SE_CLOCK_50",
         "pattern": "CLK*"
       },
       {
-        "netclass": "DP_100",
-        "pattern": "*_P"
-      },
-      {
-        "netclass": "DP_100",
-        "pattern": "*_N"
-      },
-      {
-        "netclass": "SE_50",
-        "pattern": "ANALOG_*"
+        "netclass": "Default",
+        "pattern": ""
       }
     ]
   },
