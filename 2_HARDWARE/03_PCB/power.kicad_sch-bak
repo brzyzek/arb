@@ -12172,7 +12172,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "110k"
 			(at 133.35 134.62 90)
 			(effects
 				(font
@@ -12207,7 +12207,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C105588"
+		(property "LCSC" "C25805"
 			(at 133.35 129.54 0)
 			(effects
 				(font
@@ -12216,7 +12216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0603FR-07100RL"
+		(property "Part Number" "0603WAF1103T5E"
 			(at 133.35 129.54 0)
 			(effects
 				(font
@@ -12331,15 +12331,15 @@
 	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 212.09 127 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ac9fc4c5-d14c-4f26-b3c1-a87778787af4")
 		(property "Reference" "R15"
-			(at 209.55 125.7299 0)
+			(at 214.63 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12348,7 +12348,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 209.55 128.2699 0)
+			(at 214.63 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
