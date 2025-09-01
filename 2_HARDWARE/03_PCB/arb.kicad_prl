@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [
@@ -37,6 +37,7 @@
       "Net-(U14-VPHY)",
       "Net-(U14-OSCI)",
       "Net-(U14-OSCO)",
+      "1P8V_D",
       "Net-(U18-REFIO)",
       "ANALOG_FPGA-DAC_OUT_N",
       "ANALOG_FPGA-DAC_OUT_P",
@@ -382,7 +383,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_2200834d",
+    "visible_layers": "00000000_00000000_00000000_a200834d",
     "zone_display_mode": 0
   },
   "git": {
