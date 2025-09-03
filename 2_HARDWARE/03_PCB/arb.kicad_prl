@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [
@@ -44,7 +44,6 @@
       "ANALOG_DDS_OUT_P",
       "ANALOG_DDS_OUT_N",
       "15P0V_A",
-      "N15P0V_A",
       "ANALOG_CAL-ADC_AMUX2_MCU",
       "Net-(D9-K)",
       "ANALOG_STAGE-2_AMUX2_EXT",
