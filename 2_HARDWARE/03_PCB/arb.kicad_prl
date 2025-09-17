@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 7,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [
@@ -44,6 +44,7 @@
       "ANALOG_DDS_OUT_P",
       "ANALOG_DDS_OUT_N",
       "15P0V_A",
+      "N15P0V_A",
       "ANALOG_CAL-ADC_AMUX2_MCU",
       "Net-(D9-K)",
       "ANALOG_STAGE-2_AMUX2_EXT",
@@ -62,8 +63,6 @@
       "Net-(D8-A)",
       "unconnected-(D9-NC-Pad2)",
       "Net-(D9-A)",
-      "USB_DATA_CONN_FTDI_N",
-      "USB_DATA_CONN_FTDI_P",
       "Net-(J1-CC1)",
       "Net-(J1-CC2)",
       "CLK_10MHZ_EXT_SW_3P3",
@@ -382,7 +381,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_a200834d",
+    "visible_layers": "00000000_00000000_00000000_a2000105",
     "zone_display_mode": 0
   },
   "git": {
