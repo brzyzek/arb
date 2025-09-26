@@ -10711,7 +10711,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 238.76 152.4 90)
+		(at 238.76 152.4 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11989,7 +11990,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 238.76 162.56 90)
+		(at 238.76 162.56 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
