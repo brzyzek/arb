@@ -1708,7 +1708,7 @@
 		)
 		(uuid "d65047b7-10af-40f6-b777-779f5584df32")
 	)
-	(text "R6: PLACEHOLDER TUNING CAP FOR DC BLOCKING\nR98: PLACEHOLDER TUNING RESISTOR FOR ADJUSTING FEEDBACK GAIN"
+	(text "R78: PLACEHOLDER TUNING CAP FOR DC BLOCKING\nR79,R81: PLACEHOLDER TUNING RESISTOR FOR ADJUSTING FEEDBACK GAIN\nR80: PLACEHOLDER TUNING RESISTOR FOR ADJUSTING DC OFFSET"
 		(exclude_from_sim no)
 		(at 20.32 72.39 0)
 		(effects
@@ -1913,6 +1913,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.345 81.28) (xy 92.075 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "203c22d8-546f-4553-aad0-765652dda1a0")
+	)
+	(wire
+		(pts
 			(xy 181.61 74.93) (xy 181.61 86.36)
 		)
 		(stroke
@@ -1930,6 +1940,16 @@
 			(type default)
 		)
 		(uuid "23cba021-9ab7-494a-93b2-d8b3d454e8d3")
+	)
+	(wire
+		(pts
+			(xy 97.79 108.585) (xy 97.79 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23da1937-f6f8-42ee-9303-d354a3a25199")
 	)
 	(wire
 		(pts
@@ -2193,16 +2213,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 81.28) (xy 105.41 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "939174b5-f163-42e2-b3f7-58d23d27d841")
-	)
-	(wire
-		(pts
 			(xy 157.48 91.44) (xy 152.4 91.44)
 		)
 		(stroke
@@ -2253,7 +2263,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 119.38) (xy 97.79 86.36)
+			(xy 97.79 119.38) (xy 97.79 113.665)
 		)
 		(stroke
 			(width 0)
@@ -2440,6 +2450,16 @@
 			(type default)
 		)
 		(uuid "e8c6ee4e-c5b6-4352-a6e8-fc8c23041f30")
+	)
+	(wire
+		(pts
+			(xy 98.425 81.28) (xy 105.41 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd255d1-b01f-4d50-ab54-f5cfe99a1c8c")
 	)
 	(wire
 		(pts
@@ -2848,7 +2868,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "10dffce0-0011-4d48-8119-f4e47cc3fd79")
-		(property "Reference" "R80"
+		(property "Reference" "R82"
 			(at 154.94 144.7799 0)
 			(effects
 				(font
@@ -2920,7 +2940,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/e46c6640-71a3-4b78-b602-0f6be9676e36"
-					(reference "R80")
+					(reference "R82")
 					(unit 1)
 				)
 			)
@@ -3068,7 +3088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "130f8bef-715a-4d72-abc6-b62f27362047")
-		(property "Reference" "R82"
+		(property "Reference" "R84"
 			(at 184.15 87.6299 0)
 			(effects
 				(font
@@ -3140,7 +3160,95 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/e46c6640-71a3-4b78-b602-0f6be9676e36"
-					(reference "R82")
+					(reference "R84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 97.79 111.125 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18b16bf2-58c1-4fdd-a35a-bbb270b86e7b")
+		(property "Reference" "R81"
+			(at 100.33 109.8549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 100.33 112.3949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 97.79 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 97.79 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAJ0000T5E"
+			(at 97.79 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15402"
+			(at 97.79 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1cb18400-a125-4399-92a8-c82305381860")
+		)
+		(pin "1"
+			(uuid "c76a6887-ac19-441e-a362-850788b38792")
+		)
+		(instances
+			(project "arb"
+				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/e46c6640-71a3-4b78-b602-0f6be9676e36"
+					(reference "R81")
 					(unit 1)
 				)
 			)
@@ -3891,6 +3999,92 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
+		(at 95.885 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c205b43-623a-4f32-9172-4203ae195f75")
+		(property "Reference" "R80"
+			(at 95.885 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 95.885 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 95.885 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.885 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 95.885 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAJ0000T5E"
+			(at 95.885 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15402"
+			(at 95.885 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "78b21777-d620-4b14-8a88-887338a35486")
+		)
+		(pin "1"
+			(uuid "b34f7114-d08e-46ac-8f78-0f686573a2fc")
+		)
+		(instances
+			(project "arb"
+				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/e46c6640-71a3-4b78-b602-0f6be9676e36"
+					(reference "R80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
 		(at 163.83 139.7 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3899,7 +4093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5df167a0-6119-4d2a-9091-52f6826a7dd1")
-		(property "Reference" "R81"
+		(property "Reference" "R83"
 			(at 163.83 133.35 90)
 			(effects
 				(font
@@ -3969,7 +4163,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/e46c6640-71a3-4b78-b602-0f6be9676e36"
-					(reference "R81")
+					(reference "R83")
 					(unit 1)
 				)
 			)
@@ -4203,7 +4397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74344e21-8b31-424f-b897-6ec8cde118ab")
-		(property "Reference" "R83"
+		(property "Reference" "R85"
 			(at 187.96 133.35 90)
 			(effects
 				(font
@@ -4273,7 +4467,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/e46c6640-71a3-4b78-b602-0f6be9676e36"
-					(reference "R83")
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -4662,7 +4856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3b37c61-a149-4bda-9e77-2ef48122841d")
-		(property "Reference" "R84"
+		(property "Reference" "R86"
 			(at 217.17 74.93 90)
 			(effects
 				(font
@@ -4732,7 +4926,7 @@
 		(instances
 			(project "arb"
 				(path "/866ef9be-3b01-4288-a6e0-a2357aa17e50/e46c6640-71a3-4b78-b602-0f6be9676e36"
-					(reference "R84")
+					(reference "R86")
 					(unit 1)
 				)
 			)
@@ -5812,7 +6006,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 81.28 0)
+		(at 92.075 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5820,7 +6014,7 @@
 		(dnp no)
 		(uuid "f9dbf99f-1193-481c-9a8f-c0b267a45155")
 		(property "Reference" "#PWR0263"
-			(at 99.06 87.63 0)
+			(at 92.075 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5829,7 +6023,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 94.234 83.82 0)
+			(at 87.249 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5837,7 +6031,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 81.28 0)
+			(at 92.075 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5846,7 +6040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 81.28 0)
+			(at 92.075 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5855,7 +6049,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 81.28 0)
+			(at 92.075 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
